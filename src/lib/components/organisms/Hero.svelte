@@ -1,27 +1,42 @@
 <script>
 	import FeaturesIcon from '$lib/icons/features.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
-	import Button from '$lib/components/atoms/Button.svelte';
-	import Sparkles from '../atoms/Sparkles.svelte';
+	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
+	import Email from '$lib/icons/socials/email.svelte';
+	import ResumeIcon from '$lib/icons/socials/resume.svelte';
+	import ButtonIcon from '$lib/components/atoms/Button.svelte';
 </script>
 
 <section id="hero">
-	<h1 class="hello">This is a SvelteKit Static Blog Template!</h1>
+	<h1 class="hello">Hi, I'm Daniel Luper 👋</h1>
 	<p class="intro">
-		<span class="left">It supports Markdown,</span>
-		<span class="right">and is really fast.</span>
+		a <b>software engineer</b> aiming to build <b>socially beneficial</b> tech sustainably.
+		Efficient problem-solving fires me up, and putting smiles on people's faces warms my heart.
+		Unsurprisingly, I enjoy learning and thinking about <b>AI</b>, particularly its ethical usage
+		and development. Outside of work, you might catch me playing board games, enjoying nature, or
+		dancing to a banger🕺
 	</p>
 	<div class="ctas">
-		<Sparkles>
-			<Button href="https://github.com/matfantinel/sveltekit-static-blog-template">
-				<GitHubIcon slot="icon" />
-				Source Code
-			</Button>
-		</Sparkles>
-		<Button color="primary" href="https://histoire-sveltekit-static-blog-template.vercel.app/">
-			<FeaturesIcon slot="icon" />
-			Components
-		</Button>
+		<ButtonIcon href="https://github.com/daniel-luper" target="_blank" rel="noopener noreferrer">
+			<GitHubIcon slot="icon" />
+			GitHub
+		</ButtonIcon>
+		<ButtonIcon
+			href="https://www.linkedin.com/in/daniel-luper/"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			<LinkedInIcon slot="icon" />
+			LinkedIn
+		</ButtonIcon>
+		<ButtonIcon href="mailto:jdaniel.luper@gmail.com" target="_blank" rel="noopener noreferrer">
+			<Email slot="icon" />
+			Email
+		</ButtonIcon>
+		<ButtonIcon href="/resume" target="_blank" rel="noopener noreferrer">
+			<ResumeIcon slot="icon" />
+			Resume
+		</ButtonIcon>
 	</div>
 </section>
 
@@ -43,24 +58,21 @@
 
 		.hello {
 			text-align: center;
+			font-size: 2.5rem;
 		}
 
 		.intro {
-			font-weight: 500;
-			font-size: 1.4rem;
-			width: min(100%, 440px);
-			display: flex;
-			flex-direction: column;
+			width: min(100%, 740px);
+			padding: 10px;
+			font-size: 1.2rem;
 
-			.left {
-				text-align: left;
-			}
-			.right {
-				text-align: right;
-			}
+			// @include for-phone-only {
+			// 	display: none;
+			// }
 
-			@include for-phone-only {
-				display: none;
+			b {
+				color: #2d7749;
+				font-weight: 800;
 			}
 		}
 

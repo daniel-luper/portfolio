@@ -1,69 +1,47 @@
 <script>
-	import FooterWave from '$lib/icons/footer-wave.svelte';
-	import Socials from '$lib/components/molecules/Socials.svelte';
-	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
-	import RssLink from '$lib/components/atoms/RssLink.svelte';
+	import GithubIcon from '$lib/icons/socials/github.svelte';
 </script>
 
 <footer>
-	<div class="wave">
-		<FooterWave />
+	<div class="content">
+		<div>&copy; 2024 Daniel Luper. All rights reserved.</div>
 	</div>
 	<div class="content">
-		<div class="copyright">
-			This template was built by <a
-				href="https://fantinel.dev?utm_source=site-template"
+		<div>
+			Source code on <a
+				href="https://github.com/daniel-luper/portfolio"
 				target="_blank"
-				rel="noopener noreferrer">Matheus Fantinel</a
-			>.
-		</div>
-		<div class="credits">
-			Powered by <a href="https://kit.svelte.dev/" target="_blank" rel="noopener noreferrer"
-				>SvelteKit</a
-			>. Icons by
-			<a href="https://iconoir.com/" target="_blank" rel="noopener noreferrer">Iconoir</a>.
-		</div>
-		<div class="socials">
-			<Socials />
-			<RssLink />
-			<ThemeToggle />
+				rel="noopener noreferrer">Github</a
+			>. Art by
+			<a href="https://itsjools.com" target="_blank" rel="noopener noreferrer">Julie Hines Pool</a>.
 		</div>
 	</div>
 </footer>
 
 <style lang="scss">
 	footer {
-		height: 340px;
+		display: flex;
+		justify-content: space-between;
+		position: fixed;
+		bottom: 0;
 		width: 100%;
-		background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
-		display: grid;
-		grid-template-rows: 120px 1fr;
 
 		.content {
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
 			align-items: center;
-			justify-content: center;
 			gap: 15px;
 			font-weight: 600;
 			text-align: center;
-
-			.credits {
-				font-weight: 400;
-				font-size: 90%;
-				color: var(--color--text-shade);
-			}
-
-			.socials {
-				display: flex;
-				align-items: center;
-				gap: 20px;
-			}
+			font-weight: 400;
+			font-size: 90%;
+			color: var(--color--text-shade);
+			padding: 20px;
 		}
 
 		a {
 			&:hover {
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
+				filter: drop-shadow(0px 0px 1px var(--color--primary));
 			}
 		}
 	}
