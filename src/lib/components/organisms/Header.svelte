@@ -1,6 +1,7 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+
 	import Logo from '$lib/components/atoms/Logo.svelte';
-	import ThemeToggle from '$lib/components/molecules/ThemeToggle.svelte';
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 
 	export let showBackground = false;
@@ -12,9 +13,16 @@
 			<Logo />
 		</a>
 		<div class="links">
-			<a href="/blog">Blog</a>
+			<button class:active={$page.url.pathname === '/'} class="tab-button">
+				<a href="/">Home</a>
+			</button>
+			<button class:active={$page.url.pathname.startsWith('/blog')} class="tab-button">
+				<a href="/blog">Blog</a>
+			</button>
+			<button class:active={$page.url.pathname.startsWith('/timeline')} class="tab-button">
+				<a href="/timeline">Timeline</a>
+			</button>
 			<RssLink />
-			<ThemeToggle />
 		</div>
 	</nav>
 </header>
@@ -30,18 +38,10 @@
 			padding: 20px 0;
 		}
 
-		&.has-background {
-			background: linear-gradient(
-				60deg,
-				var(--color--waves-start) 0%,
-				var(--color--waves-end) 100%
-			);
-		}
-
 		.container {
 			display: flex;
 			align-items: center;
-			gap: 30px;
+			height: 44px;
 
 			@include for-phone-only {
 				.links {
@@ -53,12 +53,7 @@
 		}
 
 		.logo {
-			height: 44px;
 			flex: 1;
-		}
-
-		a {
-			color: var(--color--text);
 		}
 
 		.links {
@@ -70,10 +65,26 @@
 			a {
 				text-decoration: none;
 
+				color: var(--color--text-shade);
+				font-weight: 500;
+
+				display: inline-block;
+				transition: transform 0.3s;
+
 				&:hover {
-					color: var(--color--primary);
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
+					transform: scale(1.1);
 				}
+			}
+
+			.tab-button {
+				&.active {
+					a {
+						color: var(--color--text);
+					}
+				}
+				border: none; // Add this line to remove the border
+				background-color: transparent; // Add this line to remove the background color
+				flex: 0 0 auto; // Add this line to prevent the buttons from growing
 			}
 		}
 	}

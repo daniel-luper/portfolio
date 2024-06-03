@@ -35,7 +35,6 @@ Organisms, in this project, are code blocks that represent a section of a page, 
 ```html
 <Header />
 <Hero />
-<About />
 <Footer />
 ```
 

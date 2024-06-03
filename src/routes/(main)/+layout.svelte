@@ -1,7 +1,4 @@
 <script>
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
-
 	import { description, image, keywords, title, siteBaseUrl } from '$lib/data/meta';
 </script>
 
@@ -23,10 +20,6 @@
 	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Header />
-
 <main>
 	<slot />
 </main>
-
-<Footer />

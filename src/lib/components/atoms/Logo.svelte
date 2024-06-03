@@ -41,6 +41,9 @@
 			height: 100%;
 			max-height: 28px;
 
+			display: inline-block;
+			transition: transform 0.3s;
+
 			#text {
 				transition: all 0.2s ease-in-out;
 				fill: var(--color--text);
@@ -49,7 +52,7 @@
 
 		&:hover {
 			#logo-text {
-				filter: drop-shadow(0px 0px 3px var(--color--primary));
+				transform: scale(1.1);
 			}
 		}
 	}

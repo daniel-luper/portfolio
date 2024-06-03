@@ -1,6 +1,4 @@
 <script lang="ts">
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
 	import dateformat from 'dateformat';
 
@@ -45,8 +43,6 @@
 </svelte:head>
 
 <div class="article-layout">
-	<Header showBackground />
-
 	<main>
 		<article id="article-content">
 			<div class="header">
@@ -84,8 +80,6 @@
 			</div>
 		{/if}
 	</main>
-
-	<Footer />
 </div>
 
 <style lang="scss">

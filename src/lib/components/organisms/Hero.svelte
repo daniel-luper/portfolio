@@ -1,5 +1,4 @@
 <script>
-	import FeaturesIcon from '$lib/icons/features.svelte';
 	import GitHubIcon from '$lib/icons/socials/github.svelte';
 	import LinkedInIcon from '$lib/icons/socials/linkedin.svelte';
 	import Email from '$lib/icons/socials/email.svelte';
@@ -33,7 +32,7 @@
 			<Email slot="icon" />
 			Email
 		</ButtonIcon>
-		<ButtonIcon href="/resume" target="_blank" rel="noopener noreferrer">
+		<ButtonIcon href="pdfs/resume.pdf" target="_blank">
 			<ResumeIcon slot="icon" />
 			Resume
 		</ButtonIcon>

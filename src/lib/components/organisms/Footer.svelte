@@ -22,9 +22,8 @@
 	footer {
 		display: flex;
 		justify-content: space-between;
-		position: fixed;
-		bottom: 0;
-		width: 100%;
+		position: relative;
+		border-top: 1px solid #e6e6e6;
 
 		.content {
 			display: flex;
@@ -41,7 +40,7 @@
 
 		a {
 			&:hover {
-				filter: drop-shadow(0px 0px 1px var(--color--primary));
+				font-size: 1.05em;
 			}
 		}
 	}

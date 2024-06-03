@@ -10,6 +10,11 @@ a {
 	}
 }
 
+p {
+	color: var(--color--text-inverse-shade);
+	line-height: 150%;
+}
+
 ::selection {
 	background-color: rgba(var(--color--primary-rgb), 0.3);
 	color: var(--color--text);
@@ -20,6 +25,7 @@ strong,
 b {
 	font-weight: 600;
 }
+
 em,
 i {
 	font-style: italic;
@@ -60,4 +66,5 @@ h4,
 h5 {
 	font-family: var(--font--title);
 }
+
 // #endregion
