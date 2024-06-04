@@ -7,15 +7,20 @@ export const siteBaseUrl = 'https://danluper.com/';
 export const keywords = [
 	'Svelte',
 	'SvelteKit',
-	'Template',
 	'Blog',
-	'Starter',
+	'Portfolio',
+	'Daniel Luper',
+	'Luper',
+	'Software Engineer',
+	'Software Development',
+	'AI Engineer',
+	'AI Research',
 	'Static Site'
 ];
 
 export const description =
-	"A light, neat, and easy-to-use SvelteKit template for your next website.";
+	"Daniel Luper's personal blog and portfolio site. Built with SvelteKit.";
 
-export const title = 'SvelteKit Static Blog Template';
+export const title = 'Daniel Luper';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;
