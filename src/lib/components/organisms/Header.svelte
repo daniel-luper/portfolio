@@ -12,7 +12,7 @@
 
 <header class:has-background={showBackground}>
 	<nav class="container">
-		<a class="logo" href="/" aria-label="Site logo">
+		<a class="logo" href="/" aria-label="Site logo" on:click={(e) => {open = false;}}>
 			<Logo />
 		</a>
 		<div class="desktop">
