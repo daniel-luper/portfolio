@@ -41,6 +41,6 @@ to see and develop components in isolation. To open it, run `npm run story:dev`.
 This website uses [image-transmutation](https://github.com/matfantinel/image-transmutation) to automatically optimize images used in the site. This means that even if you use non-optimal image formats (like lossless PNGs), it will go over the images and convert images to WebP and AVIF for you, as long as you use the `<Image />` component instead of `<img />`. This is done on build, so it doesn't change anything when running the website locally.
 
 ## 📜 License and Credits
-This project was adapted from [sveltekit-static-blog-template](https://https://github.com/matfantinel/sveltekit-static-blog-template) by [Matt Fantinel](https://fantinel.dev).
+This project was adapted from [sveltekit-static-blog-template](https://github.com/matfantinel/sveltekit-static-blog-template) by [Matt Fantinel](https://fantinel.dev).
 
 The code is open source and available under the [GPL-3.0 License](LICENSE).
