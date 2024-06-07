@@ -3,7 +3,7 @@
 	import RssLink from '$lib/components/atoms/RssLink.svelte';
 </script>
 
-<div class="links">
+<div class="links" on:click on:keydown>
 	<button class:active={$page.url.pathname === '/'} class="tab-button">
 		<a href="/">Home</a>
 	</button>

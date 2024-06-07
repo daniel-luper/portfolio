@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import HeaderLinks from './HeaderLinks.svelte';
 
-	export let open;
+	export let open: boolean = false;
 </script>
 
 {#if open}
@@ -11,7 +11,11 @@
 			if (open) e.preventDefault();
 		}}
 	>
-		<HeaderLinks />
+		<HeaderLinks
+			on:click={(e) => {
+				open = false;
+			}}
+		/>
 	</div>
 {/if}
 
