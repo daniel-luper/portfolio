@@ -171,6 +171,10 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
+
+			:global(p) {
+				color: var(--color--text);
+			}
 		}
 
 		.tags {
