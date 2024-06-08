@@ -7,8 +7,7 @@
 		{
 			title: 'Created Portfolio Website',
 			year: 2024,
-			content:
-				'Made this cool portfolio website yay woohoo (Ok I need to add actual text eventually)'
+			content: 'Made this cool portfolio website!'
 		},
 		{
 			title: 'Graduated Baylor 🐻',
@@ -33,7 +32,7 @@
 		{
 			title: 'Spring & Robotics Research',
 			year: 2021,
-			content: 'First internship at Spring. Also did robotics research at Baylor'
+			content: 'First summer internship at Spring. Also did robotics research at Baylor.'
 		},
 		{
 			title: 'Started at Baylor',

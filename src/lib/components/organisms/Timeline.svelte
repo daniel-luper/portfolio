@@ -6,7 +6,9 @@
 	<slot />
 </ol>
 
-<style>
+<style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	.timeline {
 		display: flex;
 		flex-direction: column;
@@ -27,11 +29,15 @@
 	.year {
 		display: flex;
 		flex-direction: column;
-		width: 70px;
-		min-width: 70px; /* Add this line */
+		min-width: 70px;
 		height: 100%;
 		align-items: flex-end;
 		margin-right: 36px;
+
+		@include for-phone-only {
+			margin-right: 10px;
+			min-width: 64x;
+		}
 	}
 
 	.separator {

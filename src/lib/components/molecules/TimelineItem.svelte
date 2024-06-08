@@ -25,7 +25,9 @@
 	</div>
 </li>
 
-<style>
+<style lang="scss">
+	@import '$lib/scss/breakpoints.scss';
+
 	div :global(p) {
 		margin-top: 6px;
 		font-size: 0.85rem;
@@ -33,18 +35,22 @@
 	.group {
 		display: flex;
 		flex-direction: row;
-		height: 92px;
+		min-height: 85px;
 		gap: 15px;
 		margin: 0px;
 	}
 	.year {
 		display: flex;
 		flex-direction: column;
-		width: 70px;
-		min-width: 70px; /* Add this line */
+		min-width: 70px;
 		height: 100%;
 		align-items: flex-end;
 		margin-right: 36px;
+
+		@include for-phone-only {
+			margin-right: 10px;
+			min-width: 64x;
+		}
 	}
 	h5 {
 		font-weight: 400;
@@ -67,5 +73,9 @@
 		height: 100%;
 		background-color: black;
 		margin-left: 0.5px;
+	}
+
+	.content {
+		padding-bottom: 8px;
 	}
 </style>
