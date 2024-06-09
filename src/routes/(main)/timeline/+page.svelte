@@ -15,29 +15,47 @@
 				"Sic'Em Bears! Earned a BS in Computer Science with a Math Minor. Completed the BIC honors program. Summa Cum Laude."
 		},
 		{
+			title: 'NLP Course',
+			content:
+				'One of my fav Baylor courses - we traced the evolution of NLP by reading major papers from BLEU (2002) to BERT (2018) and beyond.'
+		},
+		{
 			title: 'S-STEM Scholars Conference',
 			year: 2023,
 			content:
-				"Neat conference in D.C. They pushed a lot for going to grad school. I'm thinking about it..."
+				"Neat conference in D.C. for a scholarship program I was in. They pushed a lot for going to grad school. I'm thinking about it..."
 		},
 		{
 			title: 'Amazon',
-			content: 'Software Development Engineer Internship for Amazon.com warranties in Denver.'
+			content:
+				'Software Development internship for Amazon.com warranties in Denver. Seeing Big Tech firsthand was super insightful.'
 		},
 		{
-			title: 'Spring & Travel',
+			title: 'Spring & Travel ✈️',
 			year: 2022,
 			content: '2nd internship working remotely for Spring + traveled a bit in the U.S. and abroad.'
 		},
 		{
 			title: 'Spring & Robotics Research',
 			year: 2021,
-			content: 'First summer internship at Spring. Also did robotics research at Baylor.'
+			content:
+				'First summer internship at Spring. Also did robotics research at Baylor. Started realizing how little I know 🥴'
 		},
 		{
 			title: 'Started at Baylor',
 			year: 2020,
 			content: 'Started my undergrad at Baylor University in Waco, TX.'
+		},
+		{
+			title: 'Self-Driving Picar',
+			year: 2019,
+			content:
+				'First AI project: built a miniature self-driving car. Classified images as left/right/straight using a basic dense neural net.'
+		},
+		{
+			title: 'Graphing Calculator Game',
+			year: 2016,
+			content: "Made a game in CASIO BASIC using way too many 'if' statements. 🥲"
 		},
 		{
 			title: 'First "Hello World"',
