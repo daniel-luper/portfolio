@@ -14,6 +14,9 @@ const config = {
 		adapter: adapter(),
 		prerender: {
 			handleHttpError: 'warn'
+		},
+		paths: {
+			relative: false
 		}
 	},
 	preprocess: [
