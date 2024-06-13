@@ -12,8 +12,9 @@
 				href="https://github.com/daniel-luper/portfolio"
 				target="_blank"
 				rel="noopener noreferrer">Github</a
-			>. Art by
-			<a href="https://itsjools.com" target="_blank" rel="noopener noreferrer">Julie Hines Pool</a>.
+			>.
+			<!-- Art by -->
+			<!-- <a href="https://itsjools.com" target="_blank" rel="noopener noreferrer">Julie Hines Pool</a>. -->
 		</div>
 	</div>
 </footer>
