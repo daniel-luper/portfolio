@@ -65,9 +65,10 @@
 			padding: 10px;
 			font-size: 1.2rem;
 
-			// @include for-phone-only {
-			// 	display: none;
-			// }
+			@include for-phone-only {
+				// 	display: none;
+				font-size: 1rem;
+			}
 
 			b {
 				color: #2d7749;

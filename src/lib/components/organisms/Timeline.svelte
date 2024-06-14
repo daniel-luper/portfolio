@@ -35,8 +35,8 @@
 		margin-right: 36px;
 
 		@include for-phone-only {
-			margin-right: 10px;
-			min-width: 64x;
+			margin-right: 0px;
+			min-width: 50px;
 		}
 	}
 
