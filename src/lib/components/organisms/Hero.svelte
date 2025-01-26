@@ -10,9 +10,7 @@
 	<h1 class="hello">Hi, I'm Daniel Luper 👋</h1>
 	<p class="intro">
 		a <b>software engineer</b> aiming to build <b>socially beneficial</b> tech sustainably.
-		Efficient problem-solving fires me up, and putting smiles on people's faces warms my heart.
-		Unsurprisingly, I enjoy learning and thinking about <b>AI</b>, particularly its ethical usage
-		and development. Outside of work, you might catch me playing board games, enjoying nature, or
+		Outside of work, you might catch me playing board games, enjoying nature, or
 		dancing to a banger🕺
 	</p>
 	<div class="ctas">
