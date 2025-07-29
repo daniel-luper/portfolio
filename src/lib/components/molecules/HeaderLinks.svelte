@@ -7,12 +7,12 @@
 	<button class:active={$page.url.pathname === '/'} class="tab-button">
 		<a href="/">Home</a>
 	</button>
-	<button class:active={$page.url.pathname.startsWith('/blog')} class="tab-button">
+	<!-- <button class:active={$page.url.pathname.startsWith('/blog')} class="tab-button">
 		<a href="/blog">Blog</a>
-	</button>
-	<button class:active={$page.url.pathname.startsWith('/timeline')} class="tab-button">
+	</button> -->
+	<!-- <button class:active={$page.url.pathname.startsWith('/timeline')} class="tab-button">
 		<a href="/timeline">Timeline</a>
-	</button>
+	</button> -->
 	<RssLink />
 </div>
 

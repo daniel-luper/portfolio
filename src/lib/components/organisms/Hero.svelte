@@ -9,7 +9,7 @@
 <section id="hero">
 	<h1 class="hello">Hi, I'm Daniel Luper 👋</h1>
 	<p class="intro">
-		a <b>software engineer</b> aiming to build <b>socially beneficial</b> tech sustainably.
+		a <b>software engineer</b> based in Fort Worth, Texas.
 		Outside of work, you might catch me playing board games, enjoying nature, or
 		dancing to a banger🕺
 	</p>
