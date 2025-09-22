@@ -15,29 +15,17 @@
 	// Function to calculate required margins based on actual text measurements
 	const getMargin = () => {
 		const isMobile = window.innerWidth <= 768;
-		const isVeryNarrow = window.innerWidth <= 400;
 		
 		// Use more generous fixed margins for desktop to avoid clipping
 		if (!isMobile) {
 			return { top: 30, right: 30, bottom: 80, left: 100 };
 		}
 		
-		// For mobile, use minimal margins since labels will be moved outside
-		// But increase margins for very narrow screens to prevent cutoff
-		if (isVeryNarrow) {
-			return { 
-				top: 20, 
-				right: 20, 
-				bottom: 35, // More space for tick labels
-				left: 50   // More space for y-axis tick labels
-			};
-		}
-		
 		return { 
-			top: 15, 
-			right: 15, 
-			bottom: 30, // Just enough for tick labels
-			left: 40   // Just enough for tick labels
+			top: 2,
+			right: 2,
+			bottom: 20,
+			left: 30
 		};
 	};
 
@@ -161,9 +149,9 @@
 		let maxAllowedHeight;
 		
 		if (isMobile) {
-			// For mobile, constrain to available height
-			const baseMaxHeight = 400;
-			maxAllowedHeight = Math.min(baseMaxHeight, availableHeight - 80);
+			// For mobile, use smaller chart height to reduce whitespace
+			const baseMaxHeight = 300; // Reduced from 400
+			maxAllowedHeight = Math.min(baseMaxHeight, availableHeight - 40); // Reduced margin
 		} else {
 			// For desktop, scale chart height based on viewport height with better scaling
 			const viewportHeight = window.innerHeight;
@@ -192,18 +180,6 @@
 		if (height > maxAllowedHeight) {
 			height = maxAllowedHeight;
 			width = height * aspectRatio;
-		}
-
-		// Ensure minimum usable size, but be more flexible on very narrow screens
-		const minWidth = isVeryNarrow ? 320 : 400;
-		if (width < minWidth) {
-			width = minWidth;
-			height = width / aspectRatio;
-			// Re-check height constraint after width adjustment
-			if (height > maxAllowedHeight) {
-				height = maxAllowedHeight;
-				width = height * aspectRatio;
-			}
 		}
 
 		// Clear any existing SVG
@@ -557,7 +533,6 @@
 
 	.chart-area h1 {
 		text-align: center;
-		margin-bottom: 20px;
 		color: var(--color--text);
 		font-size: 24px;
 	}
@@ -587,7 +562,7 @@
 		background: #f8f9fa;
 		border-radius: 6px;
 		padding: 16px;
-		margin-top: 20px;
+		margin-top: 10px;
 		border-left: 4px solid var(--color--brand);
 		width: 100%;
 		box-sizing: border-box;
@@ -784,16 +759,19 @@
 		.chart-explanation {
 			padding: 12px;
 			margin-top: 15px;
-			max-height: 100px; // Smaller on mobile
+			margin-bottom: 20px; // Add bottom margin to prevent clipping
+			max-height: none; // Remove height constraint on mobile
 			flex-shrink: 0;
 
 			h3 {
 				font-size: 15px;
+				margin-bottom: 8px; // Reduced margin
 			}
 
 			p {
 				font-size: 13px;
 				line-height: 1.4; // Tighter line height for mobile
+				margin-bottom: 6px; // Reduced margin between paragraphs
 			}
 		}
 
