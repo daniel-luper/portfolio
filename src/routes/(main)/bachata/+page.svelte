@@ -397,15 +397,14 @@
 	.bachata-container {
 		display: grid;
 		grid-template-columns: 1fr minmax(320px, 400px);
-		min-height: 550px;
-		max-height: calc(100vh - 180px); // Account for header and footer
 		gap: 20px;
 		padding: 20px;
-		margin-bottom: 40px; // Space before footer
 		width: 100%;
 		max-width: none; // Override global container max-width
 		margin-left: auto;
 		margin-right: auto;
+		height: calc(100vh - 200px); // Constrain to available space
+		overflow: hidden; // Prevent container from growing beyond viewport
 
 		// Enhanced responsive grid for wider screens
 		@media (min-width: 1200px) {
@@ -418,25 +417,12 @@
 			padding: 40px;
 			gap: 40px;
 			grid-template-columns: 1fr minmax(380px, 500px);
-			min-height: 580px;
 		}
 
 		@media (min-width: 1600px) {
 			padding: 50px;
 			gap: 50px;
 			grid-template-columns: 1fr minmax(400px, 550px);
-			min-height: 600px;
-			max-height: calc(100vh - 120px); // Allow more height on very wide screens
-		}
-
-		@media (min-width: 2000px) {
-			min-height: 700px;
-			max-height: calc(100vh - 100px);
-		}
-
-		@media (min-width: 2400px) {
-			min-height: 800px;
-			max-height: calc(100vh - 80px);
 		}
 	}
 
@@ -447,6 +433,8 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
+		height: 100%; // Take full height of grid cell
+		overflow: hidden; // Prevent overflow
 	}
 
 	.chart-area h1 {
@@ -480,24 +468,12 @@
 	.chart-container {
 		flex: 1;
 		min-height: 300px;
-		max-height: 500px; // Limit chart height to prevent scrolling on standard screens
 		overflow: hidden;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 
-		// Scale up for very wide screens
-		@media (min-width: 1600px) {
-			max-height: 800px;
-		}
-
-		@media (min-width: 2000px) {
-			max-height: 1000px;
-		}
-
-		@media (min-width: 2400px) {
-			max-height: 1200px;
-		}
+		// Remove fixed max-heights to allow flexible sizing
 
 		// Ensure chart stays within bounds
 		:global(svg) {
@@ -513,8 +489,8 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		max-height: calc(100vh - 240px); // Constrain height properly
-		min-height: 500px;
+		height: 100%; // Take full height of grid cell
+		overflow: hidden; // Prevent overflow
 	}
 
 	.artist-panel h2 {
@@ -561,8 +537,7 @@
 		border: 1px solid #e0e0e0;
 		border-radius: 4px;
 		padding: 10px;
-		max-height: calc(100vh - 360px); // Ensure scrollable area
-		min-height: 300px;
+		min-height: 0; // Allow flex child to shrink
 
 		// Better scrollbar styling
 		&::-webkit-scrollbar {

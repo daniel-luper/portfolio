@@ -4,7 +4,7 @@
 
 <footer>
 	<div class="content">
-		<div>&copy; 2024 Daniel Luper. All rights reserved.</div>
+		<div>&copy; 2025 Daniel Luper. All rights reserved.</div>
 	</div>
 	<div class="content">
 		<div>
