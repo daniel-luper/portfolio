@@ -11,7 +11,53 @@
 
 	// Constants
 	const goldenRatio = 1.618033988749;
-	const margin = { top: 20, right: 20, bottom: 60, left: 80 };
+	
+	// Function to calculate required margins based on actual text measurements
+	const getMargin = () => {
+		const isMobile = window.innerWidth <= 768;
+		
+		if (!isMobile) {
+			return { top: 20, right: 20, bottom: 60, left: 80 };
+		}
+		
+		// Create temporary text elements to measure required space
+		const tempSvg = d3.select('body').append('svg')
+			.style('position', 'absolute')
+			.style('visibility', 'hidden')
+			.attr('width', 100)
+			.attr('height', 100);
+			
+		// Measure x-axis label
+		const xLabelHeight = tempSvg.append('text')
+			.style('font-size', '12px')
+			.text('General Spanish Word Frequency (%)')
+			.node()?.getBBox().height || 16;
+			
+		// Measure typical tick text
+		const tickHeight = tempSvg.append('text')
+			.style('font-size', '11px')
+			.text('0.5')
+			.node()?.getBBox().height || 14;
+			
+		// Measure y-axis label width (becomes height when rotated)
+		const yLabelWidth = tempSvg.append('text')
+			.style('font-size', '12px')
+			.text('Bachata-Relative Word Frequency (%)')
+			.node()?.getBBox().width || 200;
+			
+		tempSvg.remove();
+		
+		// Calculate margins with some padding
+		const bottomMargin = tickHeight + xLabelHeight + 30; // Extra spacing for safety
+		const leftMargin = Math.min(yLabelWidth * 0.3, 60); // Cap at reasonable size
+		
+		return { 
+			top: 20, 
+			right: 20, 
+			bottom: bottomMargin, 
+			left: leftMargin 
+		};
+	};
 
 	onMount(async () => {
 		if (browser) {
@@ -118,6 +164,7 @@
 	function initializeChart() {
 		if (!container) return;
 
+		const margin = getMargin();
 		const containerRect = container.getBoundingClientRect();
 		const availableWidth = containerRect.width - margin.left - margin.right;
 		const availableHeight = containerRect.height - margin.top - margin.bottom;
@@ -127,7 +174,8 @@
 
 		// Calculate maximum allowed height to avoid scrolling - scale up for very wide screens
 		const isMobile = window.innerWidth <= 768;
-		const baseMaxHeight = isMobile ? 300 : 450;
+		// Increase base height for mobile to accommodate larger margins
+		const baseMaxHeight = isMobile ? 400 : 450;
 		// For very wide screens (>1600px), allow much larger charts
 		const wideScreenMultiplier =
 			window.innerWidth > 1600 ? Math.min(2.2, window.innerWidth / 1600) : 1;
@@ -148,6 +196,7 @@
 			width = 400;
 			height = width / aspectRatio;
 		}
+		
 
 		// Clear any existing SVG
 		d3.select(container).select('svg').remove();
@@ -171,28 +220,42 @@
 			.domain(d3.extent(songData, (d) => d.specificCoverage))
 			.range([height, 0]);
 
-		// Add axes
+		// Add axes with mobile-optimized tick formatting
+		const xAxis = d3.axisBottom(xScale);
+		const yAxis = d3.axisLeft(yScale);
+		
+		if (isMobile) {
+			// Reduce tick count on mobile for better readability
+			xAxis.ticks(4).tickFormat(d3.format('.1f'));
+			yAxis.ticks(5).tickFormat(d3.format('.1f'));
+		}
+		
 		g.append('g')
 			.attr('class', 'x-axis')
 			.attr('transform', `translate(0,${height})`)
-			.call(d3.axisBottom(xScale));
+			.call(xAxis);
 
-		g.append('g').attr('class', 'y-axis').call(d3.axisLeft(yScale));
+		g.append('g').attr('class', 'y-axis').call(yAxis);
 
-		// Add axis labels
+		// Add axis labels with dynamically calculated positioning
+		const xLabelOffset = isMobile ? margin.bottom - 10 : 50;
+		const yLabelOffset = isMobile ? -(margin.left - 10) : -50;
+		
 		g.append('text')
 			.attr('class', 'x-label')
 			.attr('x', width / 2)
-			.attr('y', height + 50)
+			.attr('y', height + xLabelOffset)
 			.style('text-anchor', 'middle')
+			.style('font-size', isMobile ? '12px' : '14px')
 			.text('General Spanish Word Frequency (%)');
 
 		g.append('text')
 			.attr('class', 'y-label')
 			.attr('transform', 'rotate(-90)')
 			.attr('x', -height / 2)
-			.attr('y', -50)
+			.attr('y', yLabelOffset)
 			.style('text-anchor', 'middle')
+			.style('font-size', isMobile ? '12px' : '14px')
 			.text('Bachata-Relative Word Frequency (%)');
 
 		// Add clipping path to constrain circles within plot area
@@ -206,14 +269,22 @@
 			.attr('width', width)
 			.attr('height', height);
 
-		// Set up zoom
+		// Set up zoom with mobile-optimized settings
 		zoom = d3
 			.zoom()
-			.scaleExtent([0.5, 10])
+			.scaleExtent([0.5, isMobile ? 5 : 10])
 			.on('zoom', function (event) {
 				currentTransform = event.transform;
 				updateChart();
 			});
+		
+		// Configure touch behavior for mobile
+		if (isMobile) {
+			zoom.filter(function(event) {
+				// Allow zoom with pinch/wheel but prevent conflicts with scrolling
+				return event.type !== 'mousedown' || event.button === 0;
+			});
+		}
 
 		svg.call(zoom);
 
@@ -249,13 +320,29 @@
 			});
 		});
 
-		// Update axes with transformed scales
+		// Update axes with transformed scales with mobile-optimized tick formatting
 		if (currentTransform) {
 			const newXScale = currentTransform.rescaleX(xScale);
 			const newYScale = currentTransform.rescaleY(yScale);
+			
+			const isMobile = window.innerWidth <= 768;
+			const xAxis = d3.axisBottom(newXScale);
+			const yAxis = d3.axisLeft(newYScale);
+			
+			if (isMobile) {
+				// Reduce tick count on mobile and ensure they're visible
+				xAxis.ticks(4).tickFormat(d3.format('.1f'));
+				yAxis.ticks(5).tickFormat(d3.format('.1f'));
+			}
 
-			g.select('.x-axis').call(d3.axisBottom(newXScale));
-			g.select('.y-axis').call(d3.axisLeft(newYScale));
+			g.select('.x-axis')
+				.transition()
+				.duration(50)
+				.call(xAxis);
+			g.select('.y-axis')
+				.transition()
+				.duration(50)
+				.call(yAxis);
 		}
 
 		const circles = circlesContainer.selectAll('.song-circle').data(visibleSongs);
@@ -611,12 +698,12 @@
 		}
 
 		.chart-area {
-			height: auto; // Override desktop height constraint
-			max-height: 450px;
+			height: auto;
+			max-height: 500px; // Generous height for mobile
 		}
 
 		.chart-container {
-			max-height: 350px; // Constrain height for mobile
+			max-height: 450px; // Accommodate dynamic margins
 			min-height: 250px;
 		}
 
@@ -644,12 +731,36 @@
 		r: 6;
 	}
 
-	:global(.x-axis, .y-axis) {
+	:global(.x-axis),
+	:global(.y-axis) {
 		font-size: 12px;
+		
+		@media (max-width: 768px) {
+			font-size: 11px;
+		}
+	}
+	
+	:global(.x-axis path),
+	:global(.x-axis line),
+	:global(.y-axis path),
+	:global(.y-axis line) {
+		stroke: var(--color--text);
+		stroke-width: 1;
+	}
+	
+	:global(.x-axis text),
+	:global(.y-axis text) {
+		fill: var(--color--text);
+		stroke: none;
 	}
 
 	:global(.x-label, .y-label) {
 		font-size: 14px;
 		fill: var(--color--text);
+		font-weight: 500;
+		
+		@media (max-width: 768px) {
+			font-size: 12px;
+		}
 	}
 </style>
