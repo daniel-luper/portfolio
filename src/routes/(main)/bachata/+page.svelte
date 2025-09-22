@@ -15,47 +15,29 @@
 	// Function to calculate required margins based on actual text measurements
 	const getMargin = () => {
 		const isMobile = window.innerWidth <= 768;
+		const isVeryNarrow = window.innerWidth <= 400;
 		
+		// Use more generous fixed margins for desktop to avoid clipping
 		if (!isMobile) {
-			return { top: 20, right: 20, bottom: 60, left: 80 };
+			return { top: 30, right: 30, bottom: 80, left: 100 };
 		}
 		
-		// Create temporary text elements to measure required space
-		const tempSvg = d3.select('body').append('svg')
-			.style('position', 'absolute')
-			.style('visibility', 'hidden')
-			.attr('width', 100)
-			.attr('height', 100);
-			
-		// Measure x-axis label
-		const xLabelHeight = tempSvg.append('text')
-			.style('font-size', '12px')
-			.text('General Spanish Word Frequency (%)')
-			.node()?.getBBox().height || 16;
-			
-		// Measure typical tick text
-		const tickHeight = tempSvg.append('text')
-			.style('font-size', '11px')
-			.text('0.5')
-			.node()?.getBBox().height || 14;
-			
-		// Measure y-axis label width (becomes height when rotated)
-		const yLabelWidth = tempSvg.append('text')
-			.style('font-size', '12px')
-			.text('Bachata-Relative Word Frequency (%)')
-			.node()?.getBBox().width || 200;
-			
-		tempSvg.remove();
-		
-		// Calculate margins with some padding
-		const bottomMargin = tickHeight + xLabelHeight + 30; // Extra spacing for safety
-		const leftMargin = Math.min(yLabelWidth * 0.3, 60); // Cap at reasonable size
+		// For mobile, use minimal margins since labels will be moved outside
+		// But increase margins for very narrow screens to prevent cutoff
+		if (isVeryNarrow) {
+			return { 
+				top: 20, 
+				right: 20, 
+				bottom: 35, // More space for tick labels
+				left: 50   // More space for y-axis tick labels
+			};
+		}
 		
 		return { 
-			top: 20, 
-			right: 20, 
-			bottom: bottomMargin, 
-			left: leftMargin 
+			top: 15, 
+			right: 15, 
+			bottom: 30, // Just enough for tick labels
+			left: 40   // Just enough for tick labels
 		};
 	};
 
@@ -65,7 +47,7 @@
 			initializeChart();
 			setupTooltip();
 
-			// Add resize handler to maintain aspect ratio
+			// Add resize handler to maintain aspect ratio and height matching
 			const handleResize = () => {
 				if (container && svg) {
 					initializeChart();
@@ -172,14 +154,35 @@
 		// Define aspect ratio (width:height) - good for data visualization
 		const aspectRatio = 1.6; // 16:10 ratio, good for scatter plots
 
-		// Calculate maximum allowed height to avoid scrolling - scale up for very wide screens
+		// Simple approach: scale chart height based on screen height
 		const isMobile = window.innerWidth <= 768;
-		// Increase base height for mobile to accommodate larger margins
-		const baseMaxHeight = isMobile ? 400 : 450;
-		// For very wide screens (>1600px), allow much larger charts
-		const wideScreenMultiplier =
-			window.innerWidth > 1600 ? Math.min(2.2, window.innerWidth / 1600) : 1;
-		const maxAllowedHeight = Math.min(baseMaxHeight * wideScreenMultiplier, availableHeight - 50);
+		const isVeryNarrow = window.innerWidth <= 400;
+		
+		let maxAllowedHeight;
+		
+		if (isMobile) {
+			// For mobile, constrain to available height
+			const baseMaxHeight = 400;
+			maxAllowedHeight = Math.min(baseMaxHeight, availableHeight - 80);
+		} else {
+			// For desktop, scale chart height based on viewport height with better scaling
+			const viewportHeight = window.innerHeight;
+			const viewportWidth = window.innerWidth;
+			
+			if (viewportHeight >= 900) {
+				// Large screens: scale with screen size, allow generous heights
+				const baseHeight = 500;
+				const widthBonus = Math.min(200, (viewportWidth - 1200) * 0.1); // Extra height for wide screens
+				const heightBonus = Math.min(300, (viewportHeight - 900) * 0.3); // Extra height for tall screens
+				maxAllowedHeight = baseHeight + widthBonus + heightBonus;
+			} else if (viewportHeight >= 700) {
+				// Medium screens: proportional scaling
+				maxAllowedHeight = Math.max(350, viewportHeight * 0.4);
+			} else {
+				// Small screens: conservative height
+				maxAllowedHeight = Math.max(280, viewportHeight * 0.35);
+			}
+		}
 
 		// Calculate dimensions based on aspect ratio and constraints
 		let width = availableWidth;
@@ -191,15 +194,31 @@
 			width = height * aspectRatio;
 		}
 
-		// Ensure minimum usable size
-		if (width < 400) {
-			width = 400;
+		// Ensure minimum usable size, but be more flexible on very narrow screens
+		const minWidth = isVeryNarrow ? 320 : 400;
+		if (width < minWidth) {
+			width = minWidth;
 			height = width / aspectRatio;
+			// Re-check height constraint after width adjustment
+			if (height > maxAllowedHeight) {
+				height = maxAllowedHeight;
+				width = height * aspectRatio;
+			}
 		}
-		
 
 		// Clear any existing SVG
 		d3.select(container).select('svg').remove();
+		
+		// After chart is rendered, match artist panel height to chart area height
+		setTimeout(() => {
+			const chartArea = container.closest('.chart-area');
+			const artistPanel = container.closest('.bachata-container')?.querySelector('.artist-panel');
+			
+			if (chartArea && artistPanel && !isMobile) {
+				const chartAreaHeight = chartArea.offsetHeight;
+				artistPanel.style.height = `${chartAreaHeight}px`;
+			}
+		}, 100); // Small delay to ensure chart is fully rendered
 
 		svg = d3
 			.select(container)
@@ -237,26 +256,25 @@
 
 		g.append('g').attr('class', 'y-axis').call(yAxis);
 
-		// Add axis labels with dynamically calculated positioning
-		const xLabelOffset = isMobile ? margin.bottom - 10 : 50;
-		const yLabelOffset = isMobile ? -(margin.left - 10) : -50;
-		
-		g.append('text')
-			.attr('class', 'x-label')
-			.attr('x', width / 2)
-			.attr('y', height + xLabelOffset)
-			.style('text-anchor', 'middle')
-			.style('font-size', isMobile ? '12px' : '14px')
-			.text('General Spanish Word Frequency (%)');
+		// Add axis labels (only on desktop, mobile labels will be in explanation)
+		if (!isMobile) {
+			g.append('text')
+				.attr('class', 'x-label')
+				.attr('x', width / 2)
+				.attr('y', height + 55)
+				.style('text-anchor', 'middle')
+				.style('font-size', '14px')
+				.text('General Spanish Word Frequency (%)');
 
-		g.append('text')
-			.attr('class', 'y-label')
-			.attr('transform', 'rotate(-90)')
-			.attr('x', -height / 2)
-			.attr('y', yLabelOffset)
-			.style('text-anchor', 'middle')
-			.style('font-size', isMobile ? '12px' : '14px')
-			.text('Bachata-Relative Word Frequency (%)');
+			g.append('text')
+				.attr('class', 'y-label')
+				.attr('transform', 'rotate(-90)')
+				.attr('x', -height / 2)
+				.attr('y', -60)
+				.style('text-anchor', 'middle')
+				.style('font-size', '14px')
+				.text('Bachata-Relative Word Frequency (%)');
+		}
 
 		// Add clipping path to constrain circles within plot area
 		svg
@@ -448,7 +466,22 @@
 		<div class="chart-controls">
 			<button on:click={resetZoom}>Reset Zoom</button>
 		</div>
+		
 		<div class="chart-container" bind:this={container} />
+		
+		<div class="chart-explanation">
+			<h3>How to Read This Chart</h3>
+			<div class="mobile-axis-labels">
+				<div class="axis-label">
+					<strong>X-axis (horizontal):</strong> General Spanish Word Frequency (%)
+				</div>
+				<div class="axis-label">
+					<strong>Y-axis (vertical):</strong> Bachata-Relative Word Frequency (%)
+				</div>
+			</div>
+			<p>This graph shows average word frequencies using <strong>"lemmas"</strong> - the base form of words (e.g., "cantó," "canta," and "cantando" all count as the lemma "cantar").</p>
+			<p><strong>For language learners:</strong> Start with songs in the <strong>top-right</strong> (easy songs with common words) and work your way toward the <strong>bottom-left</strong> (harder songs with less common vocabulary).</p>
+		</div>
 	</div>
 	<div class="artist-panel">
 		<h2>Artists (<span>{artistData.filter((a) => a.visible).length}</span>)</h2>
@@ -490,8 +523,7 @@
 		max-width: none; // Override global container max-width
 		margin-left: auto;
 		margin-right: auto;
-		height: calc(100vh - 200px); // Constrain to available space on desktop
-		overflow: hidden; // Prevent container from growing beyond viewport on desktop
+		align-items: start; // Align to top, let chart area determine height
 
 		// Enhanced responsive grid for wider screens
 		@media (min-width: 1200px) {
@@ -520,8 +552,7 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		height: 100%; // Take full height of grid cell on desktop
-		overflow: hidden; // Prevent overflow
+		// Let content determine natural height
 	}
 
 	.chart-area h1 {
@@ -552,17 +583,70 @@
 		}
 	}
 
+	.chart-explanation {
+		background: #f8f9fa;
+		border-radius: 6px;
+		padding: 16px;
+		margin-top: 20px;
+		border-left: 4px solid var(--color--brand);
+		width: 100%;
+		box-sizing: border-box;
+		flex-shrink: 0; // Don't shrink this box
+		max-height: 180px; // Increased to accommodate axis labels
+		overflow-y: auto; // Allow scrolling if needed
+
+		h3 {
+			margin: 0 0 12px 0;
+			color: var(--color--text);
+			font-size: 16px;
+			font-weight: 600;
+		}
+
+		.mobile-axis-labels {
+			display: none; // Hidden by default
+			margin-bottom: 12px;
+			
+			@media (max-width: 768px) {
+				display: block; // Show only on mobile
+			}
+			
+			.axis-label {
+				margin-bottom: 6px;
+				font-size: 13px;
+				color: var(--color--text);
+				
+				&:last-child {
+					margin-bottom: 0;
+				}
+				
+				strong {
+					color: var(--color--brand);
+				}
+			}
+		}
+
+		p {
+			margin: 0 0 8px 0;
+			color: var(--color--text);
+			font-size: 14px;
+			line-height: 1.5;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
 	.chart-container {
-		flex: 1;
 		min-height: 300px;
-		overflow: hidden;
+		overflow: visible; // Allow labels to show outside bounds
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
+		flex: 1;
 
-		// Remove fixed max-heights to allow flexible sizing
-
-		// Ensure chart stays within bounds
+		// Ensure chart stays within bounds but allow overflow for labels
 		:global(svg) {
 			max-width: 100%;
 			max-height: 100%;
@@ -576,8 +660,8 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		height: 100%; // Take full height of grid cell on desktop
-		overflow: hidden; // Prevent overflow
+		overflow: hidden; // Enable internal scrolling
+		// Height will be set dynamically by JavaScript to match chart area
 	}
 
 	.artist-panel h2 {
@@ -697,14 +781,39 @@
 			overflow: visible; // Allow content to flow naturally
 		}
 
+		.chart-explanation {
+			padding: 12px;
+			margin-top: 15px;
+			max-height: 100px; // Smaller on mobile
+			flex-shrink: 0;
+
+			h3 {
+				font-size: 15px;
+			}
+
+			p {
+				font-size: 13px;
+				line-height: 1.4; // Tighter line height for mobile
+			}
+		}
+
 		.chart-area {
-			height: auto;
-			max-height: 500px; // Generous height for mobile
+			height: auto; // Override desktop height constraint
+			max-height: 600px; // Increased to accommodate explanation
+			overflow: visible; // Allow overflow on mobile
 		}
 
 		.chart-container {
-			max-height: 450px; // Accommodate dynamic margins
-			min-height: 250px;
+			max-height: 500px; // Increased for larger chart
+			min-height: 350px; // Larger minimum height
+			flex: 1 1 auto; // More flexible on mobile
+		}
+		
+		@media (max-width: 400px) {
+			.chart-container {
+				min-height: 380px; // More height for very narrow screens
+				max-height: 520px; // Increased max height
+			}
 		}
 
 		.artist-panel {
@@ -715,6 +824,13 @@
 
 		.artist-list {
 			max-height: 250px;
+		}
+	}
+
+	@media (max-width: 400px) {
+		.bachata-container {
+			padding: 10px; // Reduced padding for very narrow screens
+			gap: 10px;
 		}
 	}
 
@@ -760,7 +876,14 @@
 		font-weight: 500;
 		
 		@media (max-width: 768px) {
-			font-size: 12px;
+			font-size: 11px;
+			font-weight: 600;
+			// Add text shadow for better readability on mobile
+			filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.8));
+		}
+		
+		@media (max-width: 400px) {
+			font-size: 11px;
 		}
 	}
 </style>
