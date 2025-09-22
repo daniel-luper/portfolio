@@ -403,8 +403,8 @@
 		max-width: none; // Override global container max-width
 		margin-left: auto;
 		margin-right: auto;
-		height: calc(100vh - 200px); // Constrain to available space
-		overflow: hidden; // Prevent container from growing beyond viewport
+		height: calc(100vh - 200px); // Constrain to available space on desktop
+		overflow: hidden; // Prevent container from growing beyond viewport on desktop
 
 		// Enhanced responsive grid for wider screens
 		@media (min-width: 1200px) {
@@ -433,7 +433,7 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		height: 100%; // Take full height of grid cell
+		height: 100%; // Take full height of grid cell on desktop
 		overflow: hidden; // Prevent overflow
 	}
 
@@ -489,7 +489,7 @@
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		height: 100%; // Take full height of grid cell
+		height: 100%; // Take full height of grid cell on desktop
 		overflow: hidden; // Prevent overflow
 	}
 
@@ -602,13 +602,16 @@
 		.bachata-container {
 			grid-template-columns: 1fr;
 			grid-template-rows: auto auto;
+			height: auto; // Override desktop height constraint
 			max-height: none;
 			min-height: auto;
 			gap: 15px;
 			padding: 15px;
+			overflow: visible; // Allow content to flow naturally
 		}
 
 		.chart-area {
+			height: auto; // Override desktop height constraint
 			max-height: 450px;
 		}
 
@@ -618,6 +621,7 @@
 		}
 
 		.artist-panel {
+			height: auto; // Override desktop height constraint
 			max-height: 400px;
 			min-height: 300px;
 		}
