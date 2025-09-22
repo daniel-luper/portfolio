@@ -18,8 +18,7 @@ export const keywords = [
 	'Static Site'
 ];
 
-export const description =
-	"Daniel Luper's personal blog and portfolio site. Built with SvelteKit.";
+export const description = "Daniel Luper's personal blog and portfolio site. Built with SvelteKit.";
 
 export const title = 'Daniel Luper';
 
