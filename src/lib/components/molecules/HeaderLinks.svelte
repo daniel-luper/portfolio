@@ -7,6 +7,9 @@
 	<button class:active={$page.url.pathname === '/'} class="tab-button">
 		<a href="/">Home</a>
 	</button>
+	<button class:active={$page.url.pathname.startsWith('/bachata')} class="tab-button">
+		<a href="/bachata">Bachata</a>
+	</button>
 	<!-- <button class:active={$page.url.pathname.startsWith('/blog')} class="tab-button">
 		<a href="/blog">Blog</a>
 	</button> -->

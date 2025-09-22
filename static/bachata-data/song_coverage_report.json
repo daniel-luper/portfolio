@@ -1,0 +1,2844 @@
+[
+	{
+		"Lirow - Amiga Fiel.json": {
+			"specific_coverage": 0.93048,
+			"general_coverage": 0.48286,
+			"song_lemma_count": 51
+		}
+	},
+	{
+		"Aventura - No Lo Perdona Dios.json": {
+			"specific_coverage": 0.52557,
+			"general_coverage": 0.23945,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Alex Bueno - Que Vuelva.json": {
+			"specific_coverage": 0.50637,
+			"general_coverage": 0.25384,
+			"song_lemma_count": 116
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - Me Duele La Cabeza.json": {
+			"specific_coverage": 0.65302,
+			"general_coverage": 0.33188,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Karlos Rosé - Infiel.json": {
+			"specific_coverage": 0.61685,
+			"general_coverage": 0.27239,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Prince Royce - Otra Vez.json": {
+			"specific_coverage": 0.72245,
+			"general_coverage": 0.3617,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"NATTI NATASHA - Quiéreme Menos.json": {
+			"specific_coverage": 0.68828,
+			"general_coverage": 0.34168,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"Juan Bautista - La casita de mama.json": {
+			"specific_coverage": 0.54202,
+			"general_coverage": 0.34185,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Xtreme - Ahora Vete.json": {
+			"specific_coverage": 1.06489,
+			"general_coverage": 0.56403,
+			"song_lemma_count": 45
+		}
+	},
+	{
+		"Antonio José - La Noche Perfecta.json": {
+			"specific_coverage": 0.65197,
+			"general_coverage": 0.32104,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Zacarias Ferreira - El Intruso.json": {
+			"specific_coverage": 0.7493,
+			"general_coverage": 0.36341,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Yoskar Sarante - Guítarra.json": {
+			"specific_coverage": 0.8342,
+			"general_coverage": 0.46956,
+			"song_lemma_count": 61
+		}
+	},
+	{
+		"Romeo Santos - Cancioncitas de Amor.json": {
+			"specific_coverage": 0.52755,
+			"general_coverage": 0.28474,
+			"song_lemma_count": 96
+		}
+	},
+	{
+		"Romeo Santos, USHER - Promise (feat. Usher).json": {
+			"specific_coverage": 0.71315,
+			"general_coverage": 0.38391,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Romeo Santos - Sus Huellas.json": {
+			"specific_coverage": 0.54459,
+			"general_coverage": 0.29736,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Enrique Iglesias, Romeo Santos - Loco.json": {
+			"specific_coverage": 0.83414,
+			"general_coverage": 0.40144,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"J Salez, DerekVinci - Del Sol.json": {
+			"specific_coverage": 0.61225,
+			"general_coverage": 0.32869,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Carlos y Alejandra - Cafecito.json": {
+			"specific_coverage": 0.61997,
+			"general_coverage": 0.30732,
+			"song_lemma_count": 92
+		}
+	},
+	{
+		"Prince Royce - How Deep Is Your Love.json": {
+			"specific_coverage": 0.85733,
+			"general_coverage": 0.4667,
+			"song_lemma_count": 50
+		}
+	},
+	{
+		"Juan Luis Guerra 4.40 - Bachata Rosa.json": {
+			"specific_coverage": 0.6597,
+			"general_coverage": 0.34252,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Elvis Martinez - Asi Te Amo.json": {
+			"specific_coverage": 0.71653,
+			"general_coverage": 0.35804,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"Yoskar Sarante - Perdido.json": {
+			"specific_coverage": 0.79362,
+			"general_coverage": 0.4054,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Prince Royce - Solita.json": {
+			"specific_coverage": 0.5814,
+			"general_coverage": 0.29283,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Lirow - Sabanas Blancas.json": {
+			"specific_coverage": 0.75531,
+			"general_coverage": 0.474,
+			"song_lemma_count": 42
+		}
+	},
+	{
+		"Monchy & Alexandra - Dos Locos.json": {
+			"specific_coverage": 0.82661,
+			"general_coverage": 0.43942,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Raulin Rodriguez - La Loca.json": {
+			"specific_coverage": 0.65812,
+			"general_coverage": 0.3907,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Andrw John - Te Extraño, Te Olvido y Te Amo.json": {
+			"specific_coverage": 0.7317,
+			"general_coverage": 0.35967,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Romeo Santos - 7 Días.json": {
+			"specific_coverage": 0.47667,
+			"general_coverage": 0.23511,
+			"song_lemma_count": 108
+		}
+	},
+	{
+		"Vena - Sangre De Mis Venas.json": {
+			"specific_coverage": 0.76727,
+			"general_coverage": 0.36115,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Enrique Iglesias, Maria Becerra - ASI ES LA VIDA.json": {
+			"specific_coverage": 0.54268,
+			"general_coverage": 0.28049,
+			"song_lemma_count": 107
+		}
+	},
+	{
+		"Aventura - El Perdedor.json": {
+			"specific_coverage": 0.5715,
+			"general_coverage": 0.29471,
+			"song_lemma_count": 96
+		}
+	},
+	{
+		"Romeo Santos, Daddy Yankee, Nicky Jam - Bella y Sensual.json": {
+			"specific_coverage": 0.37667,
+			"general_coverage": 0.18768,
+			"song_lemma_count": 161
+		}
+	},
+	{
+		"Joe Veras - El Hombre de Tu Vida.json": {
+			"specific_coverage": 0.76437,
+			"general_coverage": 0.37735,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Elvis Martinez - Tu Secreto.json": {
+			"specific_coverage": 0.80303,
+			"general_coverage": 0.39985,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Daniel Santacruz, Alexandra - Se Busca Un Corazón.json": {
+			"specific_coverage": 0.61261,
+			"general_coverage": 0.33888,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"Andrw John - En Peligro de Extinción.json": {
+			"specific_coverage": 0.69071,
+			"general_coverage": 0.37708,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Aventura - Tu Jueguito.json": {
+			"specific_coverage": 0.44441,
+			"general_coverage": 0.24078,
+			"song_lemma_count": 122
+		}
+	},
+	{
+		"Xtreme - Shorty, Shorty.json": {
+			"specific_coverage": 0.93153,
+			"general_coverage": 0.42186,
+			"song_lemma_count": 49
+		}
+	},
+	{
+		"Luis Vargas - La mesa del rincon.json": {
+			"specific_coverage": 0.61121,
+			"general_coverage": 0.31269,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Prince Royce - Carita de Inocente.json": {
+			"specific_coverage": 0.732,
+			"general_coverage": 0.3446,
+			"song_lemma_count": 76
+		}
+	},
+	{
+		"Elvis Martinez El Camarón - Maestra.json": {
+			"specific_coverage": 0.79611,
+			"general_coverage": 0.38902,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"Aventura - Un Poeta Enamorado.json": {
+			"specific_coverage": 0.50911,
+			"general_coverage": 0.24453,
+			"song_lemma_count": 118
+		}
+	},
+	{
+		"C. Tangana, NATHY PELUSO - Ateo.json": {
+			"specific_coverage": 0.54289,
+			"general_coverage": 0.26455,
+			"song_lemma_count": 106
+		}
+	},
+	{
+		"Yoskar Sarante - No Te Detengas.json": {
+			"specific_coverage": 0.51204,
+			"general_coverage": 0.24712,
+			"song_lemma_count": 123
+		}
+	},
+	{
+		"Aventura - Un Chi Chi.json": {
+			"specific_coverage": 0.58624,
+			"general_coverage": 0.28817,
+			"song_lemma_count": 93
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_, R.K.M & Ken-Y - Tu Primera Vez.json": {
+			"specific_coverage": 0.52678,
+			"general_coverage": 0.2647,
+			"song_lemma_count": 105
+		}
+	},
+	{
+		"Elvis Martinez - Lloraras.json": {
+			"specific_coverage": 0.72628,
+			"general_coverage": 0.35772,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Anthony Santos - Donde Estará.json": {
+			"specific_coverage": 0.6972,
+			"general_coverage": 0.35413,
+			"song_lemma_count": 76
+		}
+	},
+	{
+		"Prince Royce - Stuck On You.json": {
+			"specific_coverage": 0.98517,
+			"general_coverage": 0.48352,
+			"song_lemma_count": 51
+		}
+	},
+	{
+		"Aventura - Los Infieles.json": {
+			"specific_coverage": 0.51024,
+			"general_coverage": 0.25442,
+			"song_lemma_count": 110
+		}
+	},
+	{
+		"Raulin Rodriguez - Medicina De Amor.json": {
+			"specific_coverage": 0.8104,
+			"general_coverage": 0.39838,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Kany García, Young Miko - En Esta Boca.json": {
+			"specific_coverage": 0.55693,
+			"general_coverage": 0.27911,
+			"song_lemma_count": 97
+		}
+	},
+	{
+		"Aventura - Por un Segundo.json": {
+			"specific_coverage": 0.46915,
+			"general_coverage": 0.24813,
+			"song_lemma_count": 123
+		}
+	},
+	{
+		"Elvis Martinez - Lo Doy Todo Por Ti.json": {
+			"specific_coverage": 0.89703,
+			"general_coverage": 0.45677,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"NATTI NATASHA - LA FALTA QUE ME HACES - Bachata Version.json": {
+			"specific_coverage": 0.93181,
+			"general_coverage": 0.51711,
+			"song_lemma_count": 42
+		}
+	},
+	{
+		"Lirow - Me Duele.json": {
+			"specific_coverage": 0.67498,
+			"general_coverage": 0.32151,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Raulin Rodriguez - Sólo Por Ella.json": {
+			"specific_coverage": 1.04524,
+			"general_coverage": 0.6032,
+			"song_lemma_count": 42
+		}
+	},
+	{
+		"Los Toros Band - Mi Niña - Bachata Version.json": {
+			"specific_coverage": 0.67431,
+			"general_coverage": 0.34282,
+			"song_lemma_count": 82
+		}
+	},
+	{
+		"Anthony Santos - Me Quiero Morir.json": {
+			"specific_coverage": 0.80898,
+			"general_coverage": 0.3549,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Raulin Rodriguez - Esta Noche.json": {
+			"specific_coverage": 0.81737,
+			"general_coverage": 0.40787,
+			"song_lemma_count": 66
+		}
+	},
+	{
+		"Raulin Rodriguez - Ay Hombe.json": {
+			"specific_coverage": 0.57083,
+			"general_coverage": 0.29837,
+			"song_lemma_count": 99
+		}
+	},
+	{
+		"Anthony Santos - Por Mi Timidez.json": {
+			"specific_coverage": 0.5931,
+			"general_coverage": 0.28393,
+			"song_lemma_count": 95
+		}
+	},
+	{
+		"Johnny Sky - Call On Me.json": {
+			"specific_coverage": 0.85935,
+			"general_coverage": 0.43274,
+			"song_lemma_count": 57
+		}
+	},
+	{
+		"Prince Royce - Borrador.json": {
+			"specific_coverage": 0.75084,
+			"general_coverage": 0.41273,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Aventura - La Tormenta.json": {
+			"specific_coverage": 0.4581,
+			"general_coverage": 0.21792,
+			"song_lemma_count": 135
+		}
+	},
+	{
+		"Romeo Santos - Que Se Mueran.json": {
+			"specific_coverage": 0.55378,
+			"general_coverage": 0.29797,
+			"song_lemma_count": 95
+		}
+	},
+	{
+		"Aventura, Don Omar - Ella Y Yo - Featuring Don Omar.json": {
+			"specific_coverage": 0.36671,
+			"general_coverage": 0.18432,
+			"song_lemma_count": 175
+		}
+	},
+	{
+		"Lirow, Dj Pakinho - Mirame.json": {
+			"specific_coverage": 0.69032,
+			"general_coverage": 0.43668,
+			"song_lemma_count": 50
+		}
+	},
+	{
+		"Raulin Rodriguez - Que Vuelva.json": {
+			"specific_coverage": 0.88544,
+			"general_coverage": 0.42715,
+			"song_lemma_count": 58
+		}
+	},
+	{
+		"Prince Royce, Luis Miguel Del Amargue - Anestesiada (feat. Luis Miguel Del Amargue).json": {
+			"specific_coverage": 0.57424,
+			"general_coverage": 0.2733,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Aventura - Aventura.json": {
+			"specific_coverage": 0.64213,
+			"general_coverage": 0.3097,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Lirow, Marco Puma - Promesas De Amor.json": {
+			"specific_coverage": 0.70211,
+			"general_coverage": 0.33934,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"Kewin Cosmos - La Vecina.json": {
+			"specific_coverage": 0.61101,
+			"general_coverage": 0.33059,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Luis Vargas - Veneno.json": {
+			"specific_coverage": 0.87532,
+			"general_coverage": 0.45142,
+			"song_lemma_count": 47
+		}
+	},
+	{
+		"Lirow - Un Beso.json": {
+			"specific_coverage": 0.68158,
+			"general_coverage": 0.356,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"Romeo Santos - Perro.json": {
+			"specific_coverage": 0.49324,
+			"general_coverage": 0.25113,
+			"song_lemma_count": 116
+		}
+	},
+	{
+		"Luis Fonsi, Juan Luis Guerra 4.40 - Llegaste Tú.json": {
+			"specific_coverage": 0.62407,
+			"general_coverage": 0.33339,
+			"song_lemma_count": 78
+		}
+	},
+	{
+		"Monchy & Alexandra - No Ha Sido Facil.json": {
+			"specific_coverage": 0.66759,
+			"general_coverage": 0.29943,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Anthony Santos - Corazón Culpable.json": {
+			"specific_coverage": 0.60383,
+			"general_coverage": 0.29894,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Aventura - Un Beso.json": {
+			"specific_coverage": 0.58759,
+			"general_coverage": 0.34383,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Romeo Santos - Llévame Contigo.json": {
+			"specific_coverage": 0.58616,
+			"general_coverage": 0.27659,
+			"song_lemma_count": 92
+		}
+	},
+	{
+		"Teodoro Reyes - No Le Pare.json": {
+			"specific_coverage": 0.76173,
+			"general_coverage": 0.41185,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"NATHY PELUSO, Tiago PZK - ELLA TIENE.json": {
+			"specific_coverage": 0.54184,
+			"general_coverage": 0.28272,
+			"song_lemma_count": 98
+		}
+	},
+	{
+		"Romeo Santos, Justin Timberlake - Sin Fin.json": {
+			"specific_coverage": 0.63497,
+			"general_coverage": 0.32593,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Joe Veras - Carta De Verano.json": {
+			"specific_coverage": 0.56249,
+			"general_coverage": 0.27387,
+			"song_lemma_count": 103
+		}
+	},
+	{
+		"Andrw John - El Final De Mi Vida.json": {
+			"specific_coverage": 0.59156,
+			"general_coverage": 0.29929,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Luis Segura - Traicionera.json": {
+			"specific_coverage": 0.9275,
+			"general_coverage": 0.55159,
+			"song_lemma_count": 42
+		}
+	},
+	{
+		"Aventura - Angelito.json": {
+			"specific_coverage": 0.53595,
+			"general_coverage": 0.25975,
+			"song_lemma_count": 108
+		}
+	},
+	{
+		"Andrw John - Y para Qué.json": {
+			"specific_coverage": 0.70636,
+			"general_coverage": 0.38287,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Prince Royce - Mi Ultima Carta.json": {
+			"specific_coverage": 0.56645,
+			"general_coverage": 0.29134,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Aventura - Lágrimas.json": {
+			"specific_coverage": 0.71626,
+			"general_coverage": 0.40059,
+			"song_lemma_count": 52
+		}
+	},
+	{
+		"Romeo Santos, Teodoro Reyes - ileso.json": {
+			"specific_coverage": 0.51953,
+			"general_coverage": 0.27313,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Prince Royce - Incondicional.json": {
+			"specific_coverage": 0.76354,
+			"general_coverage": 0.3956,
+			"song_lemma_count": 57
+		}
+	},
+	{
+		"Prince Royce - Stand by Me.json": {
+			"specific_coverage": 1.01618,
+			"general_coverage": 0.42097,
+			"song_lemma_count": 33
+		}
+	},
+	{
+		"Xtreme - Adónde Se Fue _.json": {
+			"specific_coverage": 0.83459,
+			"general_coverage": 0.43403,
+			"song_lemma_count": 64
+		}
+	},
+	{
+		"Raulin Rodriguez - Que Dolor.json": {
+			"specific_coverage": 1.02569,
+			"general_coverage": 0.52634,
+			"song_lemma_count": 38
+		}
+	},
+	{
+		"Frank Reyes - El Alchohol.json": {
+			"specific_coverage": 0.84661,
+			"general_coverage": 0.42251,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Antony Santos - Ay! Ven - Bachata.json": {
+			"specific_coverage": 0.68785,
+			"general_coverage": 0.27608,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Joe Veras - La Pared.json": {
+			"specific_coverage": 0.60054,
+			"general_coverage": 0.33082,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Anuel AA, Romeo Santos - Ella Quiere Beber - Remix.json": {
+			"specific_coverage": 0.40265,
+			"general_coverage": 0.22985,
+			"song_lemma_count": 145
+		}
+	},
+	{
+		"Toby Love - Llorar Lloviendo.json": {
+			"specific_coverage": 0.8449,
+			"general_coverage": 0.48525,
+			"song_lemma_count": 57
+		}
+	},
+	{
+		"Frank Reyes - Princesa.json": {
+			"specific_coverage": 0.64743,
+			"general_coverage": 0.32847,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Marc Anthony - Flor Pálida.json": {
+			"specific_coverage": 0.56222,
+			"general_coverage": 0.32241,
+			"song_lemma_count": 82
+		}
+	},
+	{
+		"Romeo Santos - Suegra.json": {
+			"specific_coverage": 0.54576,
+			"general_coverage": 0.26796,
+			"song_lemma_count": 103
+		}
+	},
+	{
+		"Zacarias Ferreira - Tu Y Nadie Más.json": {
+			"specific_coverage": 0.85292,
+			"general_coverage": 0.43556,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Bachata Heightz - Dime Porque.json": {
+			"specific_coverage": 0.59001,
+			"general_coverage": 0.29484,
+			"song_lemma_count": 94
+		}
+	},
+	{
+		"Prince Royce - Can't Help Falling in Love.json": {
+			"specific_coverage": 1.02598,
+			"general_coverage": 0.50508,
+			"song_lemma_count": 48
+		}
+	},
+	{
+		"J Salez, DerekVinci, El Tiguere - Latidos.json": {
+			"specific_coverage": 0.63344,
+			"general_coverage": 0.31941,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Romeo Santos - La Bella Y La Bestia.json": {
+			"specific_coverage": 0.50151,
+			"general_coverage": 0.25712,
+			"song_lemma_count": 108
+		}
+	},
+	{
+		"Daniel Simo - Clavada En Mi Cuerpo.json": {
+			"specific_coverage": 0.82501,
+			"general_coverage": 0.424,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Prince Royce - Me EnRD.json": {
+			"specific_coverage": 0.65219,
+			"general_coverage": 0.3282,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Los Toros Band - Mi Niña.json": {
+			"specific_coverage": 0.68326,
+			"general_coverage": 0.34447,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Teodoro Reyes - Tu Eres Mi Hembra.json": {
+			"specific_coverage": 0.45147,
+			"general_coverage": 0.21705,
+			"song_lemma_count": 145
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - Con Qué Ojos.json": {
+			"specific_coverage": 0.59105,
+			"general_coverage": 0.295,
+			"song_lemma_count": 98
+		}
+	},
+	{
+		"Romeo Santos - No Tiene la Culpa.json": {
+			"specific_coverage": 0.40069,
+			"general_coverage": 0.21713,
+			"song_lemma_count": 141
+		}
+	},
+	{
+		"Toby Love - Lejos.json": {
+			"specific_coverage": 0.63944,
+			"general_coverage": 0.31342,
+			"song_lemma_count": 78
+		}
+	},
+	{
+		"Raulin Rodriguez - Mujer Infiel.json": {
+			"specific_coverage": 0.91602,
+			"general_coverage": 0.50281,
+			"song_lemma_count": 46
+		}
+	},
+	{
+		"Prince Royce, Maria Becerra - Te Espero - feat. Maria Becerra.json": {
+			"specific_coverage": 0.52035,
+			"general_coverage": 0.25369,
+			"song_lemma_count": 108
+		}
+	},
+	{
+		"Zacarias Ferreira - Sentimiento de Amor.json": {
+			"specific_coverage": 0.85394,
+			"general_coverage": 0.44076,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Romeo Santos, Ozuna - Sobredosis (feat. Ozuna).json": {
+			"specific_coverage": 0.45982,
+			"general_coverage": 0.23126,
+			"song_lemma_count": 107
+		}
+	},
+	{
+		"Kiko Rodriguez - Vagabundo, Borracho y Loco.json": {
+			"specific_coverage": 0.67708,
+			"general_coverage": 0.34315,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"Aventura - Voy Malacostumbrado.json": {
+			"specific_coverage": 0.62263,
+			"general_coverage": 0.30472,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Juan Luis Guerra 4.40 - Bachata En Fukuoka.json": {
+			"specific_coverage": 0.55174,
+			"general_coverage": 0.31215,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"EmmaKings - Regresa.json": {
+			"specific_coverage": 0.7479,
+			"general_coverage": 0.37488,
+			"song_lemma_count": 64
+		}
+	},
+	{
+		"Sofía Reyes, Beéle - COBARDE.json": {
+			"specific_coverage": 0.56693,
+			"general_coverage": 0.28911,
+			"song_lemma_count": 106
+		}
+	},
+	{
+		"Raulin Rodriguez - Dame Tu Querer.json": {
+			"specific_coverage": 0.92323,
+			"general_coverage": 0.50262,
+			"song_lemma_count": 46
+		}
+	},
+	{
+		"Andrw John - Quiero.json": {
+			"specific_coverage": 0.80236,
+			"general_coverage": 0.41971,
+			"song_lemma_count": 51
+		}
+	},
+	{
+		"Raulin Rodriguez - Ay Diós.json": {
+			"specific_coverage": 0.94893,
+			"general_coverage": 0.36951,
+			"song_lemma_count": 41
+		}
+	},
+	{
+		"Marc Anthony - Punta Cana.json": {
+			"specific_coverage": 0.63216,
+			"general_coverage": 0.31895,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Luis Vargas - Ceniza fria.json": {
+			"specific_coverage": 0.48221,
+			"general_coverage": 0.24666,
+			"song_lemma_count": 129
+		}
+	},
+	{
+		"Alex Bueno - Con el alma desnuda.json": {
+			"specific_coverage": 0.70132,
+			"general_coverage": 0.34832,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Aventura - Enséñame a Olvidar.json": {
+			"specific_coverage": 0.43081,
+			"general_coverage": 0.20245,
+			"song_lemma_count": 151
+		}
+	},
+	{
+		"Bachata Heightz, Héctor Acosta _El Torito_ - Me Puedo Matar.json": {
+			"specific_coverage": 0.73656,
+			"general_coverage": 0.33794,
+			"song_lemma_count": 65
+		}
+	},
+	{
+		"jr - La Estrella.json": {
+			"specific_coverage": 0.81467,
+			"general_coverage": 0.43186,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Anthony Santos - Te Vas Amor.json": {
+			"specific_coverage": 0.91565,
+			"general_coverage": 0.45208,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"El Chaval de la Bachata - Estoy Perdido.json": {
+			"specific_coverage": 0.70186,
+			"general_coverage": 0.35761,
+			"song_lemma_count": 76
+		}
+	},
+	{
+		"Andrw John - Quién Será Ella.json": {
+			"specific_coverage": 0.80236,
+			"general_coverage": 0.41971,
+			"song_lemma_count": 51
+		}
+	},
+	{
+		"Romeo Santos - Eres Mía.json": {
+			"specific_coverage": 0.71177,
+			"general_coverage": 0.3241,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Aventura - Inmortal.json": {
+			"specific_coverage": 0.50493,
+			"general_coverage": 0.24866,
+			"song_lemma_count": 114
+		}
+	},
+	{
+		"Aventura - Te Invito.json": {
+			"specific_coverage": 0.35492,
+			"general_coverage": 0.1728,
+			"song_lemma_count": 171
+		}
+	},
+	{
+		"Romeo Santos - Imitadora.json": {
+			"specific_coverage": 0.51176,
+			"general_coverage": 0.25767,
+			"song_lemma_count": 112
+		}
+	},
+	{
+		"Romeo Santos, Tomatito - Mi Santa (feat. Tomatito).json": {
+			"specific_coverage": 0.46992,
+			"general_coverage": 0.23388,
+			"song_lemma_count": 123
+		}
+	},
+	{
+		"Frank Reyes - Tu Eres Ajena - Bachata.json": {
+			"specific_coverage": 0.74518,
+			"general_coverage": 0.36957,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"Aventura, Judy Santos - Obsesion.json": {
+			"specific_coverage": 0.37527,
+			"general_coverage": 0.18637,
+			"song_lemma_count": 168
+		}
+	},
+	{
+		"NATTI NATASHA - Escasez de Besos.json": {
+			"specific_coverage": 0.58346,
+			"general_coverage": 0.27943,
+			"song_lemma_count": 87
+		}
+	},
+	{
+		"Zacarias Ferreira - Es Tan Difícil.json": {
+			"specific_coverage": 0.54259,
+			"general_coverage": 0.29794,
+			"song_lemma_count": 97
+		}
+	},
+	{
+		"Romeo Santos, Marc Anthony - Yo También (feat. Marc Anthony).json": {
+			"specific_coverage": 0.46329,
+			"general_coverage": 0.23706,
+			"song_lemma_count": 112
+		}
+	},
+	{
+		"Chayanne - Bailando Bachata.json": {
+			"specific_coverage": 0.62478,
+			"general_coverage": 0.30837,
+			"song_lemma_count": 94
+		}
+	},
+	{
+		"Raulin Rodriguez - Corazón Con Candado.json": {
+			"specific_coverage": 0.68098,
+			"general_coverage": 0.33488,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"Frank Reyes - Amor a Distancia.json": {
+			"specific_coverage": 0.51048,
+			"general_coverage": 0.23951,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Prince Royce, Shakira - Deja vu.json": {
+			"specific_coverage": 0.6792,
+			"general_coverage": 0.35168,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"J Salez, DerekVinci - Solo.json": {
+			"specific_coverage": 0.55656,
+			"general_coverage": 0.26077,
+			"song_lemma_count": 99
+		}
+	},
+	{
+		"Camilo, Camila Cabello - Ambulancia.json": {
+			"specific_coverage": 0.50976,
+			"general_coverage": 0.25217,
+			"song_lemma_count": 112
+		}
+	},
+	{
+		"Ozuna, Romeo Santos - El Farsante - Remix.json": {
+			"specific_coverage": 0.40575,
+			"general_coverage": 0.19339,
+			"song_lemma_count": 156
+		}
+	},
+	{
+		"Eladio Romero Santos - Mujer Policía.json": {
+			"specific_coverage": 0.58045,
+			"general_coverage": 0.30178,
+			"song_lemma_count": 93
+		}
+	},
+	{
+		"Romeo Santos - La Diabla.json": {
+			"specific_coverage": 0.59241,
+			"general_coverage": 0.34988,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Jensen - Limbo.json": {
+			"specific_coverage": 0.6701,
+			"general_coverage": 0.33863,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"Aventura - La Pelicula.json": {
+			"specific_coverage": 0.40833,
+			"general_coverage": 0.20738,
+			"song_lemma_count": 137
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - No Notas.json": {
+			"specific_coverage": 0.89259,
+			"general_coverage": 0.28859,
+			"song_lemma_count": 46
+		}
+	},
+	{
+		"Aventura - Yo Quisiera Amarla.json": {
+			"specific_coverage": 0.46063,
+			"general_coverage": 0.24554,
+			"song_lemma_count": 128
+		}
+	},
+	{
+		"J Salez, DJ Khalid, DerekVinci - Urgente.json": {
+			"specific_coverage": 0.80101,
+			"general_coverage": 0.40803,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"Aventura - Hermanita.json": {
+			"specific_coverage": 0.41674,
+			"general_coverage": 0.20583,
+			"song_lemma_count": 145
+		}
+	},
+	{
+		"Lirow - Otra Copa.json": {
+			"specific_coverage": 0.61481,
+			"general_coverage": 0.36156,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Malú, Prince Royce - Contigo.json": {
+			"specific_coverage": 0.68464,
+			"general_coverage": 0.34693,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Zacarias Ferreira - Me Sobran Las Palabras.json": {
+			"specific_coverage": 0.84427,
+			"general_coverage": 0.43132,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Anthony Santos - La Parcela.json": {
+			"specific_coverage": 0.82356,
+			"general_coverage": 0.35529,
+			"song_lemma_count": 56
+		}
+	},
+	{
+		"Raulin Rodriguez - Morena Yo Soy Tu Marido.json": {
+			"specific_coverage": 0.79051,
+			"general_coverage": 0.40578,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Luis Vargas - Esa Mujer.json": {
+			"specific_coverage": 0.53541,
+			"general_coverage": 0.24659,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Prince Royce, Gabito Ballesteros - Cosas de la Peda (feat. Gabito Ballesteros).json": {
+			"specific_coverage": 0.53725,
+			"general_coverage": 0.27786,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Romeo Santos - Inocente.json": {
+			"specific_coverage": 0.52595,
+			"general_coverage": 0.27509,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Aventura - Peligro.json": {
+			"specific_coverage": 0.51948,
+			"general_coverage": 0.26583,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Ozuna, Romeo Santos - Ibiza.json": {
+			"specific_coverage": 0.53806,
+			"general_coverage": 0.26257,
+			"song_lemma_count": 110
+		}
+	},
+	{
+		"Zacarias Ferreira - Siento Que Te Quiero.json": {
+			"specific_coverage": 0.64504,
+			"general_coverage": 0.30116,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Joe Veras - El Molde.json": {
+			"specific_coverage": 0.66689,
+			"general_coverage": 0.35126,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Domenic Marte - Ven Tú.json": {
+			"specific_coverage": 0.66367,
+			"general_coverage": 0.33142,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Prince Royce, Paloma Mami - Morfina (feat. Paloma Mami).json": {
+			"specific_coverage": 0.60193,
+			"general_coverage": 0.29074,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Elvis Martinez El Camarón - Lleva Vida.json": {
+			"specific_coverage": 0.7246,
+			"general_coverage": 0.3898,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - Aprenderé.json": {
+			"specific_coverage": 0.6542,
+			"general_coverage": 0.30824,
+			"song_lemma_count": 78
+		}
+	},
+	{
+		"Grupo Aurora - Maldición.json": {
+			"specific_coverage": 0.92331,
+			"general_coverage": 0.44745,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"Aventura - Cuando Volveras.json": {
+			"specific_coverage": 0.72251,
+			"general_coverage": 0.35618,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Romeo Santos - Ciudadana.json": {
+			"specific_coverage": 0.49261,
+			"general_coverage": 0.24195,
+			"song_lemma_count": 117
+		}
+	},
+	{
+		"Romeo Santos - Mar.json": {
+			"specific_coverage": 0.66236,
+			"general_coverage": 0.31425,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Elvis Martinez - Tu Sabes Bien.json": {
+			"specific_coverage": 0.60758,
+			"general_coverage": 0.30566,
+			"song_lemma_count": 92
+		}
+	},
+	{
+		"Yoskar Sarante - Si Te Llego A Perder.json": {
+			"specific_coverage": 0.81301,
+			"general_coverage": 0.37495,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Yoskar Sarante - Pensando En Ella.json": {
+			"specific_coverage": 0.85303,
+			"general_coverage": 0.43342,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Aventura - Nueve y Quince - 9_ 15.json": {
+			"specific_coverage": 0.67002,
+			"general_coverage": 0.32951,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"Esme - Te Burlaste De Mi.json": {
+			"specific_coverage": 0.86733,
+			"general_coverage": 0.40802,
+			"song_lemma_count": 57
+		}
+	},
+	{
+		"Maluma - Felices los 4.json": {
+			"specific_coverage": 0.59268,
+			"general_coverage": 0.31751,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"DJ Tony Pecino, Jensen - El Final.json": {
+			"specific_coverage": 0.33077,
+			"general_coverage": 0.16548,
+			"song_lemma_count": 179
+		}
+	},
+	{
+		"Romeo Santos - Propuesta Indecente.json": {
+			"specific_coverage": 0.48464,
+			"general_coverage": 0.19332,
+			"song_lemma_count": 97
+		}
+	},
+	{
+		"Romeo Santos, Raulin Rodriguez - La Demanda.json": {
+			"specific_coverage": 0.60663,
+			"general_coverage": 0.31012,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Esme, Chantel, Dioris, Felix - Loco por Ti.json": {
+			"specific_coverage": 0.51377,
+			"general_coverage": 0.24264,
+			"song_lemma_count": 119
+		}
+	},
+	{
+		"Romeo Santos, El Chaval de la Bachata - Canalla.json": {
+			"specific_coverage": 0.60989,
+			"general_coverage": 0.27657,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Grupo Frontera, Romeo Santos - ÁNGEL.json": {
+			"specific_coverage": 0.55952,
+			"general_coverage": 0.27351,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"J Salez, DerekVinci - Tu y yo.json": {
+			"specific_coverage": 0.6687,
+			"general_coverage": 0.37106,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Prince Royce - No Te Vayas.json": {
+			"specific_coverage": 0.99005,
+			"general_coverage": 0.47283,
+			"song_lemma_count": 49
+		}
+	},
+	{
+		"Roman, Kira Brown - Dicelo.json": {
+			"specific_coverage": 0.61916,
+			"general_coverage": 0.32717,
+			"song_lemma_count": 85
+		}
+	},
+	{
+		"Karlos Rosé - Ya Te Olvide.json": {
+			"specific_coverage": 0.67528,
+			"general_coverage": 0.35068,
+			"song_lemma_count": 76
+		}
+	},
+	{
+		"India Martinez, Greeicy, Lele Pons - LAS BURBUJAS DEL JACUZZI.json": {
+			"specific_coverage": 0.57367,
+			"general_coverage": 0.29408,
+			"song_lemma_count": 96
+		}
+	},
+	{
+		"Prince Royce - Me Encanta.json": {
+			"specific_coverage": 0.68917,
+			"general_coverage": 0.28602,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Kewin Cosmos - Dile.json": {
+			"specific_coverage": 0.63939,
+			"general_coverage": 0.3227,
+			"song_lemma_count": 82
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - Se acabo lo bonito.json": {
+			"specific_coverage": 0.87827,
+			"general_coverage": 0.45392,
+			"song_lemma_count": 55
+		}
+	},
+	{
+		"Prince Royce - Corazón Sin Cara.json": {
+			"specific_coverage": 0.64364,
+			"general_coverage": 0.33074,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Juan Bautista - La ruta desaparecida.json": {
+			"specific_coverage": 0.7275,
+			"general_coverage": 0.33743,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Zacarias Ferreira - Los Recuerdos.json": {
+			"specific_coverage": 0.75696,
+			"general_coverage": 0.40393,
+			"song_lemma_count": 68
+		}
+	},
+	{
+		"Chanel, Abraham Mateo - Clavaito.json": {
+			"specific_coverage": 0.73443,
+			"general_coverage": 0.40049,
+			"song_lemma_count": 66
+		}
+	},
+	{
+		"Farruko - Va a Ser Abuela.json": {
+			"specific_coverage": 0.61723,
+			"general_coverage": 0.30575,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Aventura, Bad Bunny - Volví.json": {
+			"specific_coverage": 0.36648,
+			"general_coverage": 0.18877,
+			"song_lemma_count": 166
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - No Moriré.json": {
+			"specific_coverage": 0.61921,
+			"general_coverage": 0.32123,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Alejandro Fernández, Héctor Acosta _El Torito_ - Se Me Va La Voz - Bachata Version.json": {
+			"specific_coverage": 0.803,
+			"general_coverage": 0.4177,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Monchy & Alexandra - Hasta El Fin.json": {
+			"specific_coverage": 0.50362,
+			"general_coverage": 0.25637,
+			"song_lemma_count": 117
+		}
+	},
+	{
+		"Thalia, Prince Royce - Te Perdiste Mi Amor (feat. Prince Royce).json": {
+			"specific_coverage": 0.889,
+			"general_coverage": 0.43082,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Prince Royce, Myke Towers - Carita de Inocente (feat. Myke Towers) - Remix.json": {
+			"specific_coverage": 0.56578,
+			"general_coverage": 0.29092,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Juan Bautista - Asesina.json": {
+			"specific_coverage": 0.91801,
+			"general_coverage": 0.46035,
+			"song_lemma_count": 47
+		}
+	},
+	{
+		"Prince Royce - Lao' a Lao'.json": {
+			"specific_coverage": 0.73858,
+			"general_coverage": 0.39365,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Los Sufridos, Bad Gyal - Duro De Verdad pt.2.json": {
+			"specific_coverage": 0.49494,
+			"general_coverage": 0.25602,
+			"song_lemma_count": 112
+		}
+	},
+	{
+		"Prince Royce - Darte un Beso.json": {
+			"specific_coverage": 0.67096,
+			"general_coverage": 0.28298,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"El Chaval de la Bachata - Donde Estan Esos Amigos.json": {
+			"specific_coverage": 0.53846,
+			"general_coverage": 0.27768,
+			"song_lemma_count": 106
+		}
+	},
+	{
+		"Anthony Santos - Antología De Caricias.json": {
+			"specific_coverage": 0.64625,
+			"general_coverage": 0.3199,
+			"song_lemma_count": 85
+		}
+	},
+	{
+		"Aventura - Mi Niña Cambió.json": {
+			"specific_coverage": 0.42991,
+			"general_coverage": 0.21273,
+			"song_lemma_count": 147
+		}
+	},
+	{
+		"Romeo Santos - Ayúdame.json": {
+			"specific_coverage": 0.58312,
+			"general_coverage": 0.29239,
+			"song_lemma_count": 98
+		}
+	},
+	{
+		"Prince Royce - Morir Solo.json": {
+			"specific_coverage": 0.59295,
+			"general_coverage": 0.31384,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Romeo Santos, Anthony Santos, Luis Vargas, Raulin Rodriguez - Debate De 4.json": {
+			"specific_coverage": 0.40641,
+			"general_coverage": 0.19664,
+			"song_lemma_count": 149
+		}
+	},
+	{
+		"Abraham Mateo, Omar Montes - Falsos Recuerdos.json": {
+			"specific_coverage": 0.6174,
+			"general_coverage": 0.30182,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - Amor de una Noche.json": {
+			"specific_coverage": 0.75138,
+			"general_coverage": 0.38358,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"El Chaval de la Bachata - Cuando El Amor Se Va.json": {
+			"specific_coverage": 0.77658,
+			"general_coverage": 0.34585,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Aventura, Héctor Acosta _El Torito_ - Me Voy - Live.json": {
+			"specific_coverage": 0.44834,
+			"general_coverage": 0.21424,
+			"song_lemma_count": 136
+		}
+	},
+	{
+		"Daniel Simo - Eres Todo y Más.json": {
+			"specific_coverage": 0.6661,
+			"general_coverage": 0.34338,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Anthony Santos - Me Enamoré.json": {
+			"specific_coverage": 0.64294,
+			"general_coverage": 0.31438,
+			"song_lemma_count": 97
+		}
+	},
+	{
+		"ROSALÍA, The Weeknd - LA FAMA.json": {
+			"specific_coverage": 0.64481,
+			"general_coverage": 0.34913,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Ozuna, Anthony Santos - Señor Juez.json": {
+			"specific_coverage": 0.49673,
+			"general_coverage": 0.24365,
+			"song_lemma_count": 127
+		}
+	},
+	{
+		"Enrique Iglesias, Ana Mena - Espacio en Tu Corazón - Remix.json": {
+			"specific_coverage": 0.73116,
+			"general_coverage": 0.36926,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Anthony Santos - Creiste.json": {
+			"specific_coverage": 0.70085,
+			"general_coverage": 0.3576,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Aventura - El Desprecio.json": {
+			"specific_coverage": 0.53405,
+			"general_coverage": 0.25359,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Frank Reyes - Nade de Nada.json": {
+			"specific_coverage": 0.83279,
+			"general_coverage": 0.4249,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Yoskar Sarante - Te Perdi.json": {
+			"specific_coverage": 0.92282,
+			"general_coverage": 0.4674,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"Lirow, Joel Santos - Consecuencias.json": {
+			"specific_coverage": 0.60307,
+			"general_coverage": 0.29883,
+			"song_lemma_count": 79
+		}
+	},
+	{
+		"Zacarias Ferreira - La Mejor de Todas.json": {
+			"specific_coverage": 0.7458,
+			"general_coverage": 0.39442,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Romeo Santos - Soberbio.json": {
+			"specific_coverage": 0.57325,
+			"general_coverage": 0.32181,
+			"song_lemma_count": 87
+		}
+	},
+	{
+		"KAROL G, Greeicy - Amiga Mía.json": {
+			"specific_coverage": 0.54182,
+			"general_coverage": 0.27651,
+			"song_lemma_count": 102
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - Me Voy - Bachata.json": {
+			"specific_coverage": 0.45609,
+			"general_coverage": 0.21935,
+			"song_lemma_count": 132
+		}
+	},
+	{
+		"Monchy & Alexandra - Te Quiero Igual Que Ayer.json": {
+			"specific_coverage": 0.5256,
+			"general_coverage": 0.25927,
+			"song_lemma_count": 118
+		}
+	},
+	{
+		"Mr. Don, DerekVinci - Mariposas.json": {
+			"specific_coverage": 0.8101,
+			"general_coverage": 0.42008,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Romeo Santos - Sexo Con Ropa.json": {
+			"specific_coverage": 0.84182,
+			"general_coverage": 0.40222,
+			"song_lemma_count": 52
+		}
+	},
+	{
+		"Juan Luis Guerra 4.40 - Burbujas de Amor.json": {
+			"specific_coverage": 0.70457,
+			"general_coverage": 0.37688,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Prince Royce, Nicky Jam, Jay Wheeler - Si Te Preguntan... - feat. Nicky Jam & Jay Wheeler.json": {
+			"specific_coverage": 0.40662,
+			"general_coverage": 0.19162,
+			"song_lemma_count": 153
+		}
+	},
+	{
+		"Luis Vargas - Con los Crespos Hechos.json": {
+			"specific_coverage": 0.39851,
+			"general_coverage": 0.19512,
+			"song_lemma_count": 158
+		}
+	},
+	{
+		"Xavi, Manuel Turizo - En Privado.json": {
+			"specific_coverage": 0.48937,
+			"general_coverage": 0.24919,
+			"song_lemma_count": 114
+		}
+	},
+	{
+		"Zacarias Ferreira - Ya No Te Buscaré.json": {
+			"specific_coverage": 0.81663,
+			"general_coverage": 0.42334,
+			"song_lemma_count": 65
+		}
+	},
+	{
+		"Romeo Santos - Amigo.json": {
+			"specific_coverage": 0.44826,
+			"general_coverage": 0.23634,
+			"song_lemma_count": 118
+		}
+	},
+	{
+		"Anthony Santos - Soñe Con Ella.json": {
+			"specific_coverage": 0.66326,
+			"general_coverage": 0.31857,
+			"song_lemma_count": 81
+		}
+	},
+	{
+		"Lirow - No Me Olvides.json": {
+			"specific_coverage": 0.73998,
+			"general_coverage": 0.36391,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Elvis Martinez - El Profesor.json": {
+			"specific_coverage": 0.79233,
+			"general_coverage": 0.26012,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Aventura - I'm Sorry.json": {
+			"specific_coverage": 0.77996,
+			"general_coverage": 0.3877,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Aventura - Enseñame a Olvidar.json": {
+			"specific_coverage": 0.43081,
+			"general_coverage": 0.20245,
+			"song_lemma_count": 151
+		}
+	},
+	{
+		"Alex Bueno, Romeo Santos - Nuestro Amor.json": {
+			"specific_coverage": 0.48648,
+			"general_coverage": 0.24172,
+			"song_lemma_count": 123
+		}
+	},
+	{
+		"Roman, Dani J - Borracho.json": {
+			"specific_coverage": 0.63248,
+			"general_coverage": 0.32223,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - De Rodillas Te Pido.json": {
+			"specific_coverage": 0.82011,
+			"general_coverage": 0.40687,
+			"song_lemma_count": 64
+		}
+	},
+	{
+		"Aventura, Anthony Santos - Ciego De Amor - Featuring Anthony Santos.json": {
+			"specific_coverage": 0.47557,
+			"general_coverage": 0.22931,
+			"song_lemma_count": 131
+		}
+	},
+	{
+		"Aventura - Todavía Me Amas.json": {
+			"specific_coverage": 0.44342,
+			"general_coverage": 0.21988,
+			"song_lemma_count": 134
+		}
+	},
+	{
+		"Aventura - La Boda.json": {
+			"specific_coverage": 0.29149,
+			"general_coverage": 0.15102,
+			"song_lemma_count": 223
+		}
+	},
+	{
+		"Lirow, Joel Santos - Advertencia.json": {
+			"specific_coverage": 0.62527,
+			"general_coverage": 0.30558,
+			"song_lemma_count": 87
+		}
+	},
+	{
+		"Rusherking, KHEA - Montecarlo.json": {
+			"specific_coverage": 0.46169,
+			"general_coverage": 0.22678,
+			"song_lemma_count": 135
+		}
+	},
+	{
+		"Aventura - Dile al Amor.json": {
+			"specific_coverage": 0.53975,
+			"general_coverage": 0.26389,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Grupo Aurora - Mi Lamento.json": {
+			"specific_coverage": 0.76721,
+			"general_coverage": 0.37333,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Johnny Sky - Quiereme.json": {
+			"specific_coverage": 0.7258,
+			"general_coverage": 0.33852,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Tony Berroa - Vamonos Mi Amor.json": {
+			"specific_coverage": 0.79954,
+			"general_coverage": 0.42309,
+			"song_lemma_count": 64
+		}
+	},
+	{
+		"Lenny Tavárez, Prince Royce - TU FEO.json": {
+			"specific_coverage": 0.62081,
+			"general_coverage": 0.31478,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Anthony Santos - Voy Pa 'lla.json": {
+			"specific_coverage": 0.64168,
+			"general_coverage": 0.33737,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Daniel Santacruz - Envenenao.json": {
+			"specific_coverage": 0.6931,
+			"general_coverage": 0.38166,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Aventura - El Malo.json": {
+			"specific_coverage": 0.55596,
+			"general_coverage": 0.28998,
+			"song_lemma_count": 99
+		}
+	},
+	{
+		"Elvis Martinez - Bailando Con El.json": {
+			"specific_coverage": 0.65678,
+			"general_coverage": 0.30725,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"Prince Royce - Te Me Vas.json": {
+			"specific_coverage": 0.73988,
+			"general_coverage": 0.38029,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Yoskar Sarante - Prohibeme.json": {
+			"specific_coverage": 0.85909,
+			"general_coverage": 0.45166,
+			"song_lemma_count": 55
+		}
+	},
+	{
+		"Prince Royce - Te Robaré.json": {
+			"specific_coverage": 0.82149,
+			"general_coverage": 0.43989,
+			"song_lemma_count": 58
+		}
+	},
+	{
+		"Raulin Rodriguez - Su Novio Primero.json": {
+			"specific_coverage": 0.87753,
+			"general_coverage": 0.45966,
+			"song_lemma_count": 52
+		}
+	},
+	{
+		"Juan Luis Guerra 4.40 - Tus Besos.json": {
+			"specific_coverage": 0.54121,
+			"general_coverage": 0.29629,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Romeo Santos - Héroe Favorito.json": {
+			"specific_coverage": 0.58113,
+			"general_coverage": 0.29195,
+			"song_lemma_count": 99
+		}
+	},
+	{
+		"Zacarias Ferreira - Cuanto Duele Que Te Vas.json": {
+			"specific_coverage": 0.56726,
+			"general_coverage": 0.28636,
+			"song_lemma_count": 104
+		}
+	},
+	{
+		"Yoskar Sarante - Llora Alma Mía.json": {
+			"specific_coverage": 0.80402,
+			"general_coverage": 0.45836,
+			"song_lemma_count": 56
+		}
+	},
+	{
+		"Rusherking, Maria Becerra - Antes de Ti.json": {
+			"specific_coverage": 0.56997,
+			"general_coverage": 0.28571,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Toby Love - Te Parece Poco.json": {
+			"specific_coverage": 0.91668,
+			"general_coverage": 0.481,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"Lirow - Mirame.json": {
+			"specific_coverage": 0.69032,
+			"general_coverage": 0.43668,
+			"song_lemma_count": 50
+		}
+	},
+	{
+		"Andrw John - Ella.json": {
+			"specific_coverage": 0.80236,
+			"general_coverage": 0.41971,
+			"song_lemma_count": 51
+		}
+	},
+	{
+		"Romeo Santos, Elvis Martinez - Millonario.json": {
+			"specific_coverage": 0.51568,
+			"general_coverage": 0.25824,
+			"song_lemma_count": 115
+		}
+	},
+	{
+		"Aventura - Amor de Madre.json": {
+			"specific_coverage": 0.32829,
+			"general_coverage": 0.16076,
+			"song_lemma_count": 196
+		}
+	},
+	{
+		"Yoskar Sarante - No Tengo Suerte En El Amor.json": {
+			"specific_coverage": 0.77155,
+			"general_coverage": 0.37355,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Zacarias Ferreira - Sin Mi Quieres Volar.json": {
+			"specific_coverage": 0.85889,
+			"general_coverage": 0.41691,
+			"song_lemma_count": 65
+		}
+	},
+	{
+		"Miri Ben-Ari, Aventura - José.json": {
+			"specific_coverage": 0.50879,
+			"general_coverage": 0.28171,
+			"song_lemma_count": 105
+		}
+	},
+	{
+		"Frank Reyes - Mujer de las Mil Batallas.json": {
+			"specific_coverage": 0.64202,
+			"general_coverage": 0.34777,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Maluma - Procura.json": {
+			"specific_coverage": 0.63941,
+			"general_coverage": 0.33933,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"Aventura - Dime Si Te Gusto.json": {
+			"specific_coverage": 0.46738,
+			"general_coverage": 0.23451,
+			"song_lemma_count": 128
+		}
+	},
+	{
+		"Toby Love - Casi Casi.json": {
+			"specific_coverage": 0.85098,
+			"general_coverage": 0.37704,
+			"song_lemma_count": 49
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - Abrazame amor.json": {
+			"specific_coverage": 0.79872,
+			"general_coverage": 0.36483,
+			"song_lemma_count": 66
+		}
+	},
+	{
+		"Daniel Simo - Tus Mentiras.json": {
+			"specific_coverage": 0.75196,
+			"general_coverage": 0.36972,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"Joe Veras - En El Amor.json": {
+			"specific_coverage": 0.5888,
+			"general_coverage": 0.33934,
+			"song_lemma_count": 85
+		}
+	},
+	{
+		"Romeo Santos - R.I.P..json": {
+			"specific_coverage": 0.60016,
+			"general_coverage": 0.32548,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Luis Miguel Del Amargue - No Te Puedo Perdonar.json": {
+			"specific_coverage": 0.61526,
+			"general_coverage": 0.34994,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Prince Royce - Rechazame.json": {
+			"specific_coverage": 0.86716,
+			"general_coverage": 0.417,
+			"song_lemma_count": 54
+		}
+	},
+	{
+		"Zacarias Ferreira - El Triste.json": {
+			"specific_coverage": 0.87793,
+			"general_coverage": 0.43999,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Camilo, El Alfa - BEBÉ.json": {
+			"specific_coverage": 0.54326,
+			"general_coverage": 0.26427,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Romeo Santos, Chris Lebron - SIRI.json": {
+			"specific_coverage": 0.50761,
+			"general_coverage": 0.24697,
+			"song_lemma_count": 116
+		}
+	},
+	{
+		"Prince Royce - Amor Prohibido.json": {
+			"specific_coverage": 0.68872,
+			"general_coverage": 0.32439,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Lirow - Consejo de la Calle.json": {
+			"specific_coverage": 0.4983,
+			"general_coverage": 0.26405,
+			"song_lemma_count": 112
+		}
+	},
+	{
+		"Teodoro Reyes - Hombre No Muere de Pena.json": {
+			"specific_coverage": 0.58045,
+			"general_coverage": 0.31379,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Los Toros Band - Si Estuvieras Aquí.json": {
+			"specific_coverage": 0.59264,
+			"general_coverage": 0.29122,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Joe Veras - Por Tu Amor.json": {
+			"specific_coverage": 0.59492,
+			"general_coverage": 0.30423,
+			"song_lemma_count": 95
+		}
+	},
+	{
+		"Monchy & Alexandra - No Es una Novela.json": {
+			"specific_coverage": 0.77831,
+			"general_coverage": 0.4364,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Aventura - La Novelita.json": {
+			"specific_coverage": 0.7363,
+			"general_coverage": 0.3665,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Zacarias Ferreira - Mañana En Tu Olvido.json": {
+			"specific_coverage": 0.48352,
+			"general_coverage": 0.23467,
+			"song_lemma_count": 125
+		}
+	},
+	{
+		"Prince Royce - My Girl.json": {
+			"specific_coverage": 0.76763,
+			"general_coverage": 0.39768,
+			"song_lemma_count": 41
+		}
+	},
+	{
+		"Jessi Uribe - Bonita.json": {
+			"specific_coverage": 0.83667,
+			"general_coverage": 0.38709,
+			"song_lemma_count": 46
+		}
+	},
+	{
+		"Romeo Santos, Drake - Odio (feat. Drake).json": {
+			"specific_coverage": 0.61758,
+			"general_coverage": 0.30845,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Romeo Santos, Kiko Rodriguez - El Beso Que No Le Di.json": {
+			"specific_coverage": 0.562,
+			"general_coverage": 0.31314,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Zacarias Ferreira - Te Quiero A Morir.json": {
+			"specific_coverage": 0.72983,
+			"general_coverage": 0.36959,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Manuel Turizo - La Bachata.json": {
+			"specific_coverage": 0.65354,
+			"general_coverage": 0.33948,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Prince Royce - Las Cosas Pequeñas.json": {
+			"specific_coverage": 0.84478,
+			"general_coverage": 0.45384,
+			"song_lemma_count": 58
+		}
+	},
+	{
+		"Ana Mena - Un Millón de Lunas.json": {
+			"specific_coverage": 0.575,
+			"general_coverage": 0.30299,
+			"song_lemma_count": 94
+		}
+	},
+	{
+		"Karen Méndez, DJ Tronky - Mi Rival - Versión Bachata.json": {
+			"specific_coverage": 0.55368,
+			"general_coverage": 0.29778,
+			"song_lemma_count": 100
+		}
+	},
+	{
+		"Kewin Cosmos - Sin Censura.json": {
+			"specific_coverage": 0.71418,
+			"general_coverage": 0.38757,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Romeo Santos - Hilito.json": {
+			"specific_coverage": 0.45145,
+			"general_coverage": 0.22081,
+			"song_lemma_count": 131
+		}
+	},
+	{
+		"Joe Veras - Atrevete.json": {
+			"specific_coverage": 0.64598,
+			"general_coverage": 0.32081,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Anthony Santos - Pégame Tu Vicio.json": {
+			"specific_coverage": 0.66195,
+			"general_coverage": 0.32178,
+			"song_lemma_count": 83
+		}
+	},
+	{
+		"NATTI NATASHA - Desde Hoy.json": {
+			"specific_coverage": 0.59227,
+			"general_coverage": 0.2999,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Raulin Rodriguez - Si No Te Tengo.json": {
+			"specific_coverage": 0.54471,
+			"general_coverage": 0.26512,
+			"song_lemma_count": 103
+		}
+	},
+	{
+		"Teodoro Reyes - Vuelve Con Tu Papa.json": {
+			"specific_coverage": 0.82051,
+			"general_coverage": 0.33378,
+			"song_lemma_count": 62
+		}
+	},
+	{
+		"Vinny Rivera, Cristian Martin, DerekVinci - Mamacita.json": {
+			"specific_coverage": 0.67261,
+			"general_coverage": 0.30047,
+			"song_lemma_count": 85
+		}
+	},
+	{
+		"Kiko Rodriguez - El Verde de Tus Ojos.json": {
+			"specific_coverage": 0.70844,
+			"general_coverage": 0.35007,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"NATTI NATASHA - Cansada.json": {
+			"specific_coverage": 0.7255,
+			"general_coverage": 0.36857,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Chanel, FMK - Ahora Que No Te Tengo.json": {
+			"specific_coverage": 0.61931,
+			"general_coverage": 0.32056,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_ - Sin Perdón.json": {
+			"specific_coverage": 0.69953,
+			"general_coverage": 0.34447,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Kiko Rodriguez - Hoy Te VI Pasar.json": {
+			"specific_coverage": 0.70813,
+			"general_coverage": 0.39386,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Raulin Rodriguez - Nereyda.json": {
+			"specific_coverage": 0.87831,
+			"general_coverage": 0.44088,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Elvis Martinez, Prince Royce - Veterana.json": {
+			"specific_coverage": 0.56826,
+			"general_coverage": 0.29344,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Prince Royce - La Carretera.json": {
+			"specific_coverage": 0.56297,
+			"general_coverage": 0.27208,
+			"song_lemma_count": 104
+		}
+	},
+	{
+		"Aventura - Llorar.json": {
+			"specific_coverage": 0.53846,
+			"general_coverage": 0.26874,
+			"song_lemma_count": 106
+		}
+	},
+	{
+		"Vinny Rivera, Dj Magic Flow, DerekVinci - Plan - Bachata Version.json": {
+			"specific_coverage": 0.77438,
+			"general_coverage": 0.3924,
+			"song_lemma_count": 69
+		}
+	},
+	{
+		"Prince Royce - Soy el Mismo.json": {
+			"specific_coverage": 0.671,
+			"general_coverage": 0.37148,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Dani J, Kewin Cosmos - Mentiras.json": {
+			"specific_coverage": 0.56271,
+			"general_coverage": 0.28517,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Luis Vargas - Volvio el dolor.json": {
+			"specific_coverage": 0.58548,
+			"general_coverage": 0.28482,
+			"song_lemma_count": 98
+		}
+	},
+	{
+		"Optimo - Conéctate.json": {
+			"specific_coverage": 0.60332,
+			"general_coverage": 0.23837,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Teodoro Reyes - Morire Bebiendo.json": {
+			"specific_coverage": 0.56222,
+			"general_coverage": 0.31268,
+			"song_lemma_count": 95
+		}
+	},
+	{
+		"Aventura - Amor Bonito (Novela 2).json": {
+			"specific_coverage": 0.54166,
+			"general_coverage": 0.25032,
+			"song_lemma_count": 113
+		}
+	},
+	{
+		"NATTI NATASHA - Cuento Breve.json": {
+			"specific_coverage": 0.58386,
+			"general_coverage": 0.28398,
+			"song_lemma_count": 92
+		}
+	},
+	{
+		"YEИDRY - Herrera.json": {
+			"specific_coverage": 0.55403,
+			"general_coverage": 0.27726,
+			"song_lemma_count": 85
+		}
+	},
+	{
+		"Aventura - Su Veneno.json": {
+			"specific_coverage": 0.59712,
+			"general_coverage": 0.32707,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Frank Reyes - Quién Eres Tu.json": {
+			"specific_coverage": 0.80105,
+			"general_coverage": 0.40288,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Antony Santos - Mi Primera Vez.json": {
+			"specific_coverage": 0.51898,
+			"general_coverage": 0.27753,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Aventura - Our Song.json": {
+			"specific_coverage": 0.66138,
+			"general_coverage": 0.35553,
+			"song_lemma_count": 71
+		}
+	},
+	{
+		"Becky G, Daviles de Novelda - AMANTES.json": {
+			"specific_coverage": 0.52376,
+			"general_coverage": 0.25095,
+			"song_lemma_count": 113
+		}
+	},
+	{
+		"Carlos y Alejandra - Cuanto Duele.json": {
+			"specific_coverage": 0.44977,
+			"general_coverage": 0.2288,
+			"song_lemma_count": 122
+		}
+	},
+	{
+		"Shakira, Ozuna - Monotonía.json": {
+			"specific_coverage": 0.64289,
+			"general_coverage": 0.32413,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Aventura - Brindo Con Agua.json": {
+			"specific_coverage": 0.44086,
+			"general_coverage": 0.2234,
+			"song_lemma_count": 133
+		}
+	},
+	{
+		"Prince Royce - Lotería.json": {
+			"specific_coverage": 0.60703,
+			"general_coverage": 0.31024,
+			"song_lemma_count": 91
+		}
+	},
+	{
+		"Juan Luis Guerra 4.40 - Mi Bendición.json": {
+			"specific_coverage": 0.70151,
+			"general_coverage": 0.34177,
+			"song_lemma_count": 67
+		}
+	},
+	{
+		"Romeo Santos - Bebo.json": {
+			"specific_coverage": 0.53806,
+			"general_coverage": 0.26326,
+			"song_lemma_count": 107
+		}
+	},
+	{
+		"Toby Love - Tengo un Amor.json": {
+			"specific_coverage": 0.72128,
+			"general_coverage": 0.34638,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Monchy & Alexandra - Perdidos.json": {
+			"specific_coverage": 0.57222,
+			"general_coverage": 0.27875,
+			"song_lemma_count": 84
+		}
+	},
+	{
+		"Prince Royce - Yesterday.json": {
+			"specific_coverage": 1.11146,
+			"general_coverage": 0.63537,
+			"song_lemma_count": 36
+		}
+	},
+	{
+		"Joe Veras - Intentalo Tu.json": {
+			"specific_coverage": 0.73635,
+			"general_coverage": 0.38864,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Mr. Don, DJ Khalid - Mañana.json": {
+			"specific_coverage": 0.70337,
+			"general_coverage": 0.34352,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Juan Bautista - Por Mala Fe.json": {
+			"specific_coverage": 0.63582,
+			"general_coverage": 0.29217,
+			"song_lemma_count": 87
+		}
+	},
+	{
+		"Monchy & Alexandra - Hoja En Blanco.json": {
+			"specific_coverage": 0.4458,
+			"general_coverage": 0.21623,
+			"song_lemma_count": 143
+		}
+	},
+	{
+		"Xtreme - Te Extraño - Bachata Version.json": {
+			"specific_coverage": 0.74133,
+			"general_coverage": 0.39206,
+			"song_lemma_count": 73
+		}
+	},
+	{
+		"Carlos Rivera, Prince Royce - Calumnia.json": {
+			"specific_coverage": 0.73007,
+			"general_coverage": 0.32828,
+			"song_lemma_count": 75
+		}
+	},
+	{
+		"Dj Husky, Dimelo Cupido, SHAMA - Insomnio.json": {
+			"specific_coverage": 0.6383,
+			"general_coverage": 0.33896,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Anthony Santos - Vete y Aléjate de Mí.json": {
+			"specific_coverage": 0.66905,
+			"general_coverage": 0.34424,
+			"song_lemma_count": 86
+		}
+	},
+	{
+		"Mr. Don, Lirow - Mala.json": {
+			"specific_coverage": 0.93177,
+			"general_coverage": 0.49216,
+			"song_lemma_count": 56
+		}
+	},
+	{
+		"Prince Royce, Marc Anthony - Adicto (feat. Marc Anthony).json": {
+			"specific_coverage": 0.58821,
+			"general_coverage": 0.31489,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Los Toros Band - Quizás Si, Quizás No.json": {
+			"specific_coverage": 0.66752,
+			"general_coverage": 0.35112,
+			"song_lemma_count": 78
+		}
+	},
+	{
+		"Romeo Santos - Boomerang.json": {
+			"specific_coverage": 0.55799,
+			"general_coverage": 0.25438,
+			"song_lemma_count": 99
+		}
+	},
+	{
+		"Chicho Severino - Millonario y Que!.json": {
+			"specific_coverage": 0.66467,
+			"general_coverage": 0.36337,
+			"song_lemma_count": 80
+		}
+	},
+	{
+		"Zacarias Ferreira - Se Marchó el Amor.json": {
+			"specific_coverage": 0.61103,
+			"general_coverage": 0.31868,
+			"song_lemma_count": 91
+		}
+	},
+	{
+		"El Chaval de la Bachata - Me Voy de Ti.json": {
+			"specific_coverage": 0.55851,
+			"general_coverage": 0.28098,
+			"song_lemma_count": 109
+		}
+	},
+	{
+		"Elsa y Elmar - atravesao.json": {
+			"specific_coverage": 0.5094,
+			"general_coverage": 0.25254,
+			"song_lemma_count": 115
+		}
+	},
+	{
+		"Manuel Turizo, Kapo - Qué Pecao.json": {
+			"specific_coverage": 0.43043,
+			"general_coverage": 0.21756,
+			"song_lemma_count": 137
+		}
+	},
+	{
+		"Romeo Santos, ROSALÍA - El Pañuelo.json": {
+			"specific_coverage": 0.50104,
+			"general_coverage": 0.24304,
+			"song_lemma_count": 116
+		}
+	},
+	{
+		"Prince Royce - El Amor Que Perdimos.json": {
+			"specific_coverage": 0.7255,
+			"general_coverage": 0.37173,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Frank Reyes - Se Fue Mi Amor Bonito.json": {
+			"specific_coverage": 0.75036,
+			"general_coverage": 0.40582,
+			"song_lemma_count": 70
+		}
+	},
+	{
+		"Romeo Santos, Frank Reyes - Payasos.json": {
+			"specific_coverage": 0.58041,
+			"general_coverage": 0.29986,
+			"song_lemma_count": 91
+		}
+	},
+	{
+		"NATTI NATASHA - Tu Loca.json": {
+			"specific_coverage": 0.67386,
+			"general_coverage": 0.31826,
+			"song_lemma_count": 82
+		}
+	},
+	{
+		"Romeo Santos - Solo Conmigo.json": {
+			"specific_coverage": 0.48313,
+			"general_coverage": 0.23045,
+			"song_lemma_count": 122
+		}
+	},
+	{
+		"Leslie Grace - Day 1.json": {
+			"specific_coverage": 0.83293,
+			"general_coverage": 0.3929,
+			"song_lemma_count": 57
+		}
+	},
+	{
+		"Joe Veras - Se Te Nota.json": {
+			"specific_coverage": 0.79085,
+			"general_coverage": 0.37669,
+			"song_lemma_count": 59
+		}
+	},
+	{
+		"Raulin Rodriguez - Si Supieras.json": {
+			"specific_coverage": 0.85774,
+			"general_coverage": 0.4543,
+			"song_lemma_count": 47
+		}
+	},
+	{
+		"Aventura - Mi Corazoncito.json": {
+			"specific_coverage": 0.69137,
+			"general_coverage": 0.33443,
+			"song_lemma_count": 77
+		}
+	},
+	{
+		"CNCO - Reggaetón Lento (Bailemos).json": {
+			"specific_coverage": 0.49095,
+			"general_coverage": 0.25529,
+			"song_lemma_count": 105
+		}
+	},
+	{
+		"Prince Royce - La Corriente.json": {
+			"specific_coverage": 0.72933,
+			"general_coverage": 0.36289,
+			"song_lemma_count": 74
+		}
+	},
+	{
+		"Aventura - Alexandra.json": {
+			"specific_coverage": 0.51736,
+			"general_coverage": 0.26086,
+			"song_lemma_count": 113
+		}
+	},
+	{
+		"Anthony Santos - Dosis De Amor.json": {
+			"specific_coverage": 0.63763,
+			"general_coverage": 0.31975,
+			"song_lemma_count": 91
+		}
+	},
+	{
+		"Wilven Bello, Max Agende, Lenmelody - Ultima Botella.json": {
+			"specific_coverage": 0.62172,
+			"general_coverage": 0.31574,
+			"song_lemma_count": 89
+		}
+	},
+	{
+		"Luis Vargas - Yo Mismo La Vi.json": {
+			"specific_coverage": 0.60682,
+			"general_coverage": 0.30998,
+			"song_lemma_count": 91
+		}
+	},
+	{
+		"NATTI NATASHA, Romeo Santos - La Mejor Versión de Mi - Remix.json": {
+			"specific_coverage": 0.4871,
+			"general_coverage": 0.23821,
+			"song_lemma_count": 121
+		}
+	},
+	{
+		"Romeo Santos, Carlos Santana - Necio (feat. Carlos Santana).json": {
+			"specific_coverage": 0.59678,
+			"general_coverage": 0.30634,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Andy Rivera - Mi Mundo Entero.json": {
+			"specific_coverage": 0.64284,
+			"general_coverage": 0.29904,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Jalil Lopez, R.K.M. - No Vas a Encontrar.json": {
+			"specific_coverage": 0.57923,
+			"general_coverage": 0.2924,
+			"song_lemma_count": 101
+		}
+	},
+	{
+		"Zacarias Ferreira - Dime Que Falto.json": {
+			"specific_coverage": 0.86834,
+			"general_coverage": 0.44129,
+			"song_lemma_count": 63
+		}
+	},
+	{
+		"Yoskar Sarante - Guerra De Amor.json": {
+			"specific_coverage": 0.83626,
+			"general_coverage": 0.4331,
+			"song_lemma_count": 53
+		}
+	},
+	{
+		"Zacarias Ferreira - Estoy Enamorado.json": {
+			"specific_coverage": 0.85383,
+			"general_coverage": 0.40596,
+			"song_lemma_count": 56
+		}
+	},
+	{
+		"Romeo Santos - Fui a Jamaica.json": {
+			"specific_coverage": 0.62149,
+			"general_coverage": 0.31303,
+			"song_lemma_count": 88
+		}
+	},
+	{
+		"Héctor Acosta _El Torito_, Bachat Heightz - Me Puedo Matar.json": {
+			"specific_coverage": 0.7035,
+			"general_coverage": 0.33706,
+			"song_lemma_count": 72
+		}
+	},
+	{
+		"Romeo Santos - You.json": {
+			"specific_coverage": 0.45137,
+			"general_coverage": 0.23064,
+			"song_lemma_count": 118
+		}
+	},
+	{
+		"Prince Royce - Llamada Perdida.json": {
+			"specific_coverage": 0.61185,
+			"general_coverage": 0.31653,
+			"song_lemma_count": 90
+		}
+	},
+	{
+		"Daviles de Novelda - Entre Sábanas.json": {
+			"specific_coverage": 0.44884,
+			"general_coverage": 0.22052,
+			"song_lemma_count": 125
+		}
+	},
+	{
+		"Lirow - Una Noche Más.json": {
+			"specific_coverage": 0.8313,
+			"general_coverage": 0.46694,
+			"song_lemma_count": 60
+		}
+	},
+	{
+		"Akai Rojas, DJ Tony Pecino - El Corazón Duele.json": {
+			"specific_coverage": 0.55706,
+			"general_coverage": 0.27663,
+			"song_lemma_count": 104
+		}
+	}
+]
