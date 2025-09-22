@@ -20,7 +20,7 @@
 		"vercel-build": "npm run build && npm run vercel-sitemap && npm run vercel-optimize-images"
 	},
 	"devDependencies": {
-		"@histoire/plugin-svelte": "^0.17.17",
+		"@histoire/plugin-svelte": "^0.16.1",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.0.0",
 		"@types/d3": "^7.4.3",
@@ -28,7 +28,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
-		"histoire": "^0.17.17",
+		"histoire": "^0.16.1",
 		"image-transmutation": "^0.1.2",
 		"mdsvex": "^0.10.6",
 		"prettier": "^2.8.0",
