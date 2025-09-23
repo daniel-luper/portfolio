@@ -149,9 +149,15 @@
 		let maxAllowedHeight;
 		
 		if (isMobile) {
-			// For mobile, use smaller chart height to reduce whitespace
-			const baseMaxHeight = 300; // Reduced from 400
-			maxAllowedHeight = Math.min(baseMaxHeight, availableHeight - 40); // Reduced margin
+			// For mobile, calculate chart height to leave space for explanation
+			// Use a simpler approach: take most of available height, reserve fixed space for explanation
+			const explanationSpace = 180; // Fixed space for explanation
+			const minChartHeight = 200; // Minimum chart height
+			const maxChartHeight = 400; // Maximum chart height
+			
+			// Calculate available height for chart
+			const chartHeight = Math.max(minChartHeight, availableHeight - explanationSpace);
+			maxAllowedHeight = Math.min(maxChartHeight, chartHeight);
 		} else {
 			// For desktop, scale chart height based on viewport height with better scaling
 			const viewportHeight = window.innerHeight;
@@ -401,12 +407,6 @@
 			});
 	}
 
-	function resetZoom() {
-		if (svg && zoom) {
-			svg.transition().duration(750).call(zoom.transform, d3.zoomIdentity);
-		}
-	}
-
 	function toggleArtist(artist) {
 		artist.visible = !artist.visible;
 		artistData = [...artistData]; // Trigger reactivity
@@ -439,9 +439,6 @@
 <div class="bachata-container">
 	<div class="chart-area">
 		<h1>Bachata Songs: Word Frequency Analysis</h1>
-		<div class="chart-controls">
-			<button on:click={resetZoom}>Reset Zoom</button>
-		</div>
 		
 		<div class="chart-container" bind:this={container} />
 		
@@ -492,7 +489,7 @@
 <style lang="scss">
 	.bachata-container {
 		display: grid;
-		grid-template-columns: 1fr minmax(320px, 400px);
+		grid-template-columns: 1fr minmax(320px, 800px);
 		gap: 20px;
 		padding: 20px;
 		width: 100%;
@@ -500,6 +497,11 @@
 		margin-left: auto;
 		margin-right: auto;
 		align-items: start; // Align to top, let chart area determine height
+
+		// Medium screens: constrain artist panel width
+		@media (min-width: 769px) and (max-width: 1199px) {
+			grid-template-columns: 1fr minmax(280px, 350px);
+		}
 
 		// Enhanced responsive grid for wider screens
 		@media (min-width: 1200px) {
@@ -536,28 +538,6 @@
 		color: var(--color--text);
 		font-size: 24px;
 	}
-
-	.chart-controls {
-		display: flex;
-		justify-content: center;
-		margin-bottom: 15px;
-	}
-
-	.chart-controls button {
-		background: var(--color--brand);
-		color: white;
-		border: none;
-		padding: 8px 16px;
-		border-radius: 4px;
-		cursor: pointer;
-		font-size: 14px;
-		transition: background-color 0.2s;
-
-		&:hover {
-			background: var(--color--brand-dark);
-		}
-	}
-
 	.chart-explanation {
 		background: #f8f9fa;
 		border-radius: 6px;
@@ -777,21 +757,8 @@
 
 		.chart-area {
 			height: auto; // Override desktop height constraint
-			max-height: 600px; // Increased to accommodate explanation
+			max-height: none; // Remove height constraint to let content determine height
 			overflow: visible; // Allow overflow on mobile
-		}
-
-		.chart-container {
-			max-height: 500px; // Increased for larger chart
-			min-height: 350px; // Larger minimum height
-			flex: 1 1 auto; // More flexible on mobile
-		}
-		
-		@media (max-width: 400px) {
-			.chart-container {
-				min-height: 380px; // More height for very narrow screens
-				max-height: 520px; // Increased max height
-			}
 		}
 
 		.artist-panel {
